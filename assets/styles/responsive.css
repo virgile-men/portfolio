@@ -1,0 +1,588 @@
+/* -480 -> phone (small phone landscape) */
+@media all and (max-width: 480px) {
+
+    /* General */
+    body {
+        padding: 20px 4vw;
+    }
+    p {
+        font-size: 2.4vw;
+    }
+
+
+    /* Header + Footer */
+    header {
+        margin: 0 0 2.5rem;
+    }
+    footer {
+        margin: 2.5rem 0 0;
+    }
+    nav p, nav h1, nav p, nav a, footer a, footer p {
+        font-size: 0.9rem;
+    }
+
+    .footer-left svg, .footer-right a, .thank svg, p svg {height: 0.9rem;}
+    .footer-left svg, .thank svg, p svg {margin-left: 0.25rem;}
+    .footer-right a, .redirect-project svg, .mise-en-avant svg { margin-left: 0.45rem; }
+    .thank svg, h2 svg, p svg {transform: translate(0, 2px);}
+
+    /* Mise en avant */
+    .mise-en-avant p {
+        margin: 0.8rem 0;
+        font-size: 4vw;
+        line-height: 5.95vw;
+    }
+    .preview {display: none}
+    
+
+
+    /* Projets / List */
+    .projets  {display: none}
+
+    
+
+    /* Projets / Swider.js */
+    .portfolio {
+        margin: 2.5rem -4vw 1rem;        
+    }
+    .portfolio .swiper-slide {
+        width: 92vw;
+    }
+    .portfolio .swiper-slide-prev, .swiper-slide-next {
+        transform: scale(0.96);
+    }
+    .portfolio .title-project {
+        font-size: 7vw;
+        margin: 7%;
+    }
+
+
+
+    /* Sections CV */
+    h2 {
+        font-size: 6.25vw;
+        margin: 2.5rem 0 3.6vw;
+    }
+    article h3 {
+        font-size: 5.1vw;
+        margin: 0 0 2.4vw;
+        padding: 0 20% 0 0;
+    }
+    article h4 {
+        font-size: 5vw;
+        margin: 0 0 2.4vw;
+    }
+    .etudes h4:nth-child(2), .experiences h4:nth-child(2) {
+        margin: 0;
+    }
+    .competences h4:last-child, .interets h4:last-child {
+        margin: 0 0 9.6vw;
+        padding: 0 20% 0 0;
+    }
+    .etudes p, .experiences p, .comptences p, .interets p {
+        font-size: clamp(12px, 2.4vw, 2.45vw);
+        margin: 0 0 9.6vw;
+        padding: 0 25% 0 0;
+        line-height: 4.3vw;
+    }
+
+    /* ./projet/  */
+    .article-project h1 {
+        margin: 0 0 2vw;
+        font-size: 6.25vw;
+    }
+    
+    .techno {
+        height: 5vw;
+        margin-bottom: 4vw;
+        text-align: center;
+    }
+    .techno svg {
+        margin-right: 2.4vw;
+    }
+
+    .article-project p {
+        text-indent: 5vw;
+        font-size: 4vw;
+        line-height: 5vw;
+        margin: 4.8vw 2.4vw;
+    }
+    .article-project iframe {
+        height: calc(92vw/16*9);
+    }
+
+
+    .mmisland-challenge {
+        padding: 0 30%;
+    }
+}
+
+
+/* 480+ -> phone XL */
+@media all and (min-width: 480px) {
+    /* General */
+    body {
+        padding: 25px 5vw;
+    }
+
+
+
+    /* Header + Footer */
+    header {
+        margin: 0 0 2rem;
+    }
+    footer {
+        margin: 2rem 0 0;
+    }
+    nav p, nav h1, nav p, nav a, footer a, footer p {
+        font-size: 1.3rem;
+    }
+    .footer-left svg, .footer-right a, .thank svg, p svg {height: 1.3rem;}
+    .footer-left svg, .thank svg, p svg {margin-left: 0.45rem;}
+    .footer-right a, .redirect-project svg, .mise-en-avant svg { margin-left: 0.65rem; }
+    .thank svg, h2 svg, p svg {transform: translate(0, 2px);}
+
+    
+
+
+    /* Mise en avant */
+    .mise-en-avant {
+        margin: 1rem 0;
+        font-size: 4vw; 
+    }
+    
+
+
+    /* Projets / Swider.js */
+    .portfolio {
+        margin: 2.5rem -5vw 1rem;
+    }
+    .swiper-slide {
+        width: 90vw;
+    }
+    .swiper-slide-prev, .swiper-slide-next {
+        transform: scale(0.94);
+    }
+    .title-project {
+        font-size: 5.5vw;
+        margin: 5%;
+    }
+
+
+
+    /* Sections CV */
+    h2 {
+        font-size: 5.5vw;
+        margin: 2.5rem 0 1.5rem;
+    }
+    article h3 {
+        font-size: 2.3rem; /* 5.1vw */
+        margin: 0 0 .9rem;
+        padding: 0 20% 0 0;
+    }
+    article h4 {
+        font-size: 2.2rem;
+        margin: 0 0 .5rem;
+    }
+    .etudes h4:nth-child(2), .experiences h4:nth-child(2) {
+        margin: 0;
+    }
+    .competences h4:last-child, .interets h4:last-child {
+        margin: 0 0 1.8rem;
+        padding: 0 20% 0 0;
+    }
+    .etudes p, .experiences p, .comptences p, .interets p {
+        font-size: clamp(12px, 1.1rem, 1.15rem);
+        margin: 0 0 2rem;
+        padding: 0 25% 0 0;
+        line-height: 1.5rem;
+    }
+
+
+    /* ./projet/  */
+    .article-project {
+        max-width: 600px;
+    }
+
+    .article-project h1 {
+        margin: 0 0 2vw;
+        font-size: 5.5vw;
+    }
+    
+    .techno {
+        height: 5vw;
+        margin-bottom: 4vw;
+        text-align: center;
+    }
+    .techno svg {
+        margin-right: 2.4vw;
+    }
+
+    .article-project p {
+        text-indent: 8vw;
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+    .article-project iframe {
+        height: calc(90vw/16*9);
+    }
+
+    .mmisland-challenge {
+        padding: 0 30%;
+    }
+}
+
+
+/* 769+ -> tablet portrait */
+@media all and (min-width: 769px) and (orientation: portrait) {
+
+    /* General */
+    body {
+        padding: 40px 6vw;
+    }
+
+
+
+    /* Header + Footer */
+    header {
+        margin: 0 0 2rem;
+    }
+    footer {
+        margin: 2rem 0 0;
+    }
+    nav p, nav h1, nav p, nav a, footer a, footer p {
+        font-size: 1.3rem;
+    }
+
+    .footer-left svg, .footer-right a, .thank svg, p svg {height: 1.3rem;}
+    .footer-left svg, .thank svg, p svg {margin-left: 0.45rem;}
+    .footer-right a, .redirect-project svg, .mise-en-avant svg { margin-left: 0.65rem; }
+    .thank svg, h2 svg, p svg {transform: translate(0, 2px);}
+
+
+    /* Mise en avant */
+    .mise-en-avant {
+        margin: 1rem 0;
+        font-size: 4vw;
+    }
+    
+
+
+    /* Index / Swider.js */
+    .portfolio {
+        margin: 2.5rem -6vw 1rem;
+    }
+    .swiper-slide {
+        width: 88vw;
+    }
+    .swiper-slide-prev, .swiper-slide-next {
+        transform: scale(0.93);
+    }
+    .title-project {
+        font-size: 3.8rem;
+        margin: 5%;
+    }
+
+
+
+    /* Sections CV */
+    h2 {
+        font-size: 3.8rem;
+        margin: 2.5rem 0 1.5rem;
+    }
+    article h3 {
+        font-size: 3.2rem;
+        margin: 0 0 .9rem;
+        padding: 0 20% 0 0;
+    }
+    article h4 {
+        font-size: 2.5rem;
+        margin: 0 0 .5rem;
+    }
+    .etudes h4:nth-child(2), .experiences h4:nth-child(2) {
+        margin: 0;
+    }
+    .competences h4:last-child, .interets h4:last-child {
+        margin: 0 0 1.8rem;
+        padding: 0 20% 0 0;
+    }
+    .etudes p, .experiences p, .comptences p, .interets p {
+        font-size: clamp(12px, 1.4rem, 1.45rem);
+        line-height: 1.9rem;
+        margin: 0 0 2rem;
+        padding: 0 25% 0 0;
+    }
+
+
+
+    /* ./projet/  */
+    .article-project {
+        max-width: 90%;
+    }
+
+    .article-project h1 {
+        margin: 0 0 2vw;
+        font-size: 5.5vw;
+    }
+    
+    .techno {
+        height: 5vw;
+        margin-bottom: 4vw;
+        text-align: center;
+    }
+    .techno svg {
+        margin-right: 2.4vw;
+    }
+
+    .article-project p {
+        text-indent: 8vw;
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+    .article-project iframe {
+        height: calc(88vw/16*9);
+    }
+
+    .mmisland-challenge {
+        padding: 0 30%;
+    }
+
+}
+
+
+/* 769+ -> tablet landscape + desktop */
+@media all and (min-width: 769px) and (orientation: landscape) {
+
+    /* General */
+    body {
+        padding: 20px 2vw;
+    }
+
+
+
+
+    /* Header + Footer */
+    header {
+        margin: 0 0 1.6vw;
+    }
+    footer {
+        margin: 1.6vw 0 0;
+    }
+    nav p, nav h1, nav p, nav a, footer a, footer p {
+        font-size: 1.44vw;
+    }
+    .footer-left svg, .footer-right a, .thank svg, p svg {height: 1.44vw;}
+    .footer-left svg, .thank svg, p svg {margin-left: 0.52vw;}
+    .footer-right a, .redirect-project svg, .mise-en-avant svg { margin-left: 0.72vw; }
+    .thank svg, h2 svg, p svg {transform: translate(0, 2px);}
+
+    /* Accroche -> Actif */
+    nav h1 span, nav p span  {display: inline}
+    
+
+
+
+    /* Affichage desktop */
+    .display-desktop-portfolio {
+        display: grid;
+        grid-template-columns: 1fr 45%;
+        grid-template-rows: 1fr 10%;
+        gap: 0px 5%;
+        grid-template-areas:
+            "a c"
+            "b c";
+
+        position: relative;
+    }
+
+
+    /* Mise en avant */
+    .preview {
+        display: block;
+        grid-area: a;
+    }
+    .mise-en-avant {
+        grid-area: b;
+        margin: 0 30% 0 0;
+        font-size: 1.25vw;
+        position: absolute;
+        bottom: 0;
+    }
+    .mise-en-avant p {
+        line-height: 1.44vw;
+        margin: 0;
+    }
+
+
+    
+    
+    
+
+    /* Projets / List -> Actif */
+    .preview  {display: flex}
+    .projets {
+        display: block;
+        grid-area: c;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    li {
+        font-weight: 800;
+        font-size: 4.16vw;
+        margin-bottom: 2.08vw;
+    }
+    li:last-child {
+        margin-bottom: 0;
+    }
+    
+    /* Index / Swider.js */
+    .portfolio {display: none;}
+
+
+
+
+
+
+
+
+
+    
+    /* Sections CV / Grid -> Desktop */
+
+    h2 {grid-area: a;}
+    .etudes, .experiences, .competences {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0 1.5rem;
+    }
+    .etudes, .experiences {
+        grid-template-rows: auto 1fr;
+        grid-template-areas:
+            "a a a"
+            ". . .";
+    }
+    .competences {
+        grid-template-rows: auto 1fr;
+        grid-template-areas:
+            "a a a"
+            ". . ."
+            ". . ."
+    }
+
+
+    /* Sections CV */
+    h2 {
+        font-size: 2.1vw;
+        margin: 4vw 0 2.4vw;
+    }
+    article h3 {
+        font-size: 1.6vw;
+        margin: 0 0 .8vw;
+        padding: 0 20% 0 0;
+    }
+    article h4 {
+        font-size: 1.5vw;
+        margin: 0 0 .8vw;
+    }
+    .etudes h4:nth-child(2), .experiences h4:nth-child(2) {
+        margin: 0;
+    }
+    .competences h4:last-child, .interets h4:last-child {
+        margin: 0 0 3.2vw;
+        padding: 0 20% 0 0;
+    }
+    .etudes p, .experiences p, .comptences p, .interets p {
+        font-size: clamp(12px, .75vw, .80vw);
+        margin: 0 0 3.2vw;
+        padding: 0 25% 0 0;
+        line-height: 1.44vw;
+    }
+
+
+
+    /* ./projet/ */
+    .medias-fixed, .mise-en-avant p, .medias img { display: initial }
+    .article-project section > img, .article-project section > video, .article-project section > iframe {display: none;}
+
+    .header-desktop-fixed {
+        position: fixed;
+        width: 96vw;
+    }
+
+    #medias-fixed {
+        display: initial;
+        position: fixed;
+        top: 0;
+        width: 48%;
+        height: 84vh;
+        margin: 8vh 0;
+    
+    }
+    #medias-fixed .mise-en-avant {
+        position: absolute;
+        bottom: 0;
+    }
+    .medias {
+        height: 90%;
+    }
+    .medias img, .medias video {
+        max-width: 100%;
+        max-height: 85%;
+        display: none;
+    }
+    .medias iframe {
+        max-width: 100%;
+        aspect-ratio: 16/9;
+        height: auto;
+    }
+    .media-actived {
+        display: initial !important;
+    }
+
+    
+
+    .display-projet {
+        display: grid;
+        grid-template-columns: 50% 45%;
+        grid-template-rows: auto;
+        gap: 0px 5%;
+        grid-template-areas:
+            ". .";
+    
+        position: relative;
+    }
+    .article-project {
+        margin: 10vw 0 8vw;
+    }
+
+    .article-project h1 {
+        margin: 0 0 1vw;
+        font-size: 4.16vw;
+        text-align: left;
+    }
+    
+
+    .techno {
+        height: 2.5vw;
+        margin-bottom: 1.5rem;
+        text-align: left;
+    }
+    .techno svg {
+        margin-right: 1vw;
+    }
+
+    .article-project p {
+        font-size: 1.5vw;
+        line-height: 2.2vw;
+        text-indent: 4vw;
+    }
+
+
+}
