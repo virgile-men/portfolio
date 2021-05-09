@@ -18,9 +18,9 @@
         <div class="preview flex-center">
             <!-- Play à partir de Javascript -->
             <video preload="none" id="portrait-chinois" loop muted>
-                <source src="./assets/videos/portraitchinois-intro.mp4"
+                <source src="<?= CDNROOT ?>/assets/videos/portraitchinois-intro.mp4"
                         type="video/mp4">
-                <source src="./assets/videos/portraitchinois-intro.webm"
+                <source src="<?= CDNROOT ?>/assets/videos/portraitchinois-intro.webm"
                         type="video/webm">
                 Désolé, votre navigateur ne prend pas en charge les vidéos intégrées.
             </video>

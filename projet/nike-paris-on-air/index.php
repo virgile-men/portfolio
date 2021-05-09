@@ -47,8 +47,8 @@
         <section id="intro">
             <h1>Nike Paris On Air</h1>
             <div class="techno">
-                <?php echo file_get_contents(CDNROOT . "/assets/images/logo/photoshop.svg"); ?>
-                <?php echo file_get_contents(CDNROOT . "/assets/images/logo/illustrator.svg"); ?>
+                <?= file_get_contents(CDNROOT . "/assets/images/logo/photoshop.svg"); ?>
+                <?= file_get_contents(CDNROOT . "/assets/images/logo/illustrator.svg"); ?>
             </div>
             <video preload="none" loop muted controls playsinline poster="<?= CDNROOT ?>/assets/videos/nikeonair-intro.webp">
                 <source src="<?= CDNROOT ?>/assets/videos/nikeonair-intro.mp4"
@@ -80,7 +80,7 @@
 
         <section id="outro">
             <p class="thank">Remerciement à Baptiste M.</p>
-            <h2 class="redirect-project"><a href="https://www.youtube.com/watch?v=xYukVnteLBU" target="_blank">Voir le reportage<?php echo file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a></h2>
+            <h2 class="redirect-project"><a href="https://www.youtube.com/watch?v=xYukVnteLBU" target="_blank">Voir le reportage<?= file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a></h2>
         </section>
 
 

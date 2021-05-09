@@ -53,9 +53,9 @@
         <section id="intro">
             <h1>Portrait-chinois</h1>
             <div class="techno">
-                <?php echo file_get_contents(CDNROOT . "/assets/images/logo/css.svg"); ?>
-                <?php echo file_get_contents(CDNROOT . "/assets/images/logo/javascript.svg"); ?>
-                <?php echo file_get_contents(CDNROOT . "/assets/images/logo/photoshop.svg"); ?>
+                <?= file_get_contents(CDNROOT . "/assets/images/logo/css.svg"); ?>
+                <?= file_get_contents(CDNROOT . "/assets/images/logo/javascript.svg"); ?>
+                <?= file_get_contents(CDNROOT . "/assets/images/logo/photoshop.svg"); ?>
             </div>
             <video preload="none" loop muted controls playsinline poster="<?= CDNROOT ?>/assets/videos/portraitchinois-intro.webp">
                 <source src="<?= CDNROOT ?>/assets/videos/portraitchinois-intro.mp4"
@@ -82,7 +82,7 @@
                         type="video/webm">
                 Désolé, votre navigateur ne prend pas en charge les vidéos intégrées.
             </video>
-            <p>Comme je disais, j'ai donné l'illusion de lévitation des mes textes et mes illustrations. En effet, j'ai perfectionné mon portrait chinois grâce à des <strong>légères animations de navigatio</strong> qui, selon moi, font toute la différence ! Dans un même temps, j'ai réalisé un <strong>menu de navigation verticale</strong> pour permettre la prévisualisation de chaque thème comme un tableau d'art.</p>
+            <p>Comme je disais, j'ai donné l'illusion de lévitation des mes textes et mes illustrations. En effet, j'ai perfectionné mon portrait chinois grâce à des <strong>légères animations de navigation</strong> qui, selon moi, font toute la différence ! Dans un même temps, j'ai réalisé un <strong>menu de navigation verticale</strong> pour permettre la prévisualisation de chaque thème comme un tableau d'art.</p>
         </section>
 
         <section id="resultats">
@@ -92,8 +92,8 @@
         </section>
 
         <section id="outro">
-            <p class="thank">Remerciement à&nbsp;<a href="https://fr.linkedin.com/in/ga%C3%ABlle-charpentier-10783a45" target="_blank">Gaëlle Charpentier<?php echo file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a>&nbsp;et&nbsp;<a href="https://fr.linkedin.com/in/robin-llopis" target="_blank">Robin Llopis<?php echo file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a></p>
-            <h2 class="redirect-project"><a href="https://virgile-men.github.io/portrait-chinois/" target="_blank">Voir le projet<?php echo file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a></h2>
+            <p class="thank">Remerciement à&nbsp;<a href="https://fr.linkedin.com/in/ga%C3%ABlle-charpentier-10783a45" target="_blank">Gaëlle Charpentier<?= file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a>&nbsp;et&nbsp;<a href="https://fr.linkedin.com/in/robin-llopis" target="_blank">Robin Llopis<?= file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a></p>
+            <h2 class="redirect-project"><a href="https://virgile-men.github.io/portrait-chinois/" target="_blank">Voir le projet<?= file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a></h2>
         </section>
 
 

@@ -57,7 +57,7 @@
                         type="video/webm">
                 Désolé, votre navigateur ne prend pas en charge les vidéos intégrées.
             </video>
-            <p>Dans le cadre du <a target="_blank" href="https://www.lafinancepourtous.com/qui-sommes-nous/grand-prix-de-la-finance-pour-tous/grand-prix-2020/"></a>Grand prix de la Finance pour tous 2020<?php echo file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a>, j’ai eu l’idée de créer une page web permettant de visualiser la somme d’une assurance-vie ouverte à la naissance d’un enfant en 2000 le jour de 18e anniversaire.</p>
+            <p>Dans le cadre du <a target="_blank" href="https://www.lafinancepourtous.com/qui-sommes-nous/grand-prix-de-la-finance-pour-tous/grand-prix-2020/">Grand prix de la Finance pour tous 2020<?php echo file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a>, j’ai eu l’idée de créer une page web permettant de visualiser la somme d’une assurance-vie ouverte à la naissance d’un enfant en 2000 le jour de 18e anniversaire.</p>
         </section>
 
         <section id="challenge">

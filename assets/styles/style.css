@@ -97,12 +97,17 @@ footer a {
 
 
 
-
+.st0 {
+    clip-path: none !important;
+}
 
 
 @media (prefers-color-scheme: dark) { /* Logo SVG */
     .svg-github > path, .svg-behance > .st0 {
         fill: var(--color-font) !important;
+    }
+    .svg-external-link * {
+        stroke: var(--color-font) !important;
     }
     .svg-behance > .st1 {
         fill: var(--color-background) !important;

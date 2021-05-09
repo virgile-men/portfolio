@@ -22,9 +22,10 @@
     }
 
     .footer-left svg, .footer-right a, .thank svg, p svg {height: 0.9rem;}
-    .footer-left svg, .thank svg, p svg {margin-left: 0.25rem;}
-    .footer-right a, .redirect-project svg, .mise-en-avant svg { margin-left: 0.45rem; }
+    .footer-left svg, .thank svg, p svg, .mise-en-avant svg {margin-left: 0.25rem;}
+    .footer-right a, .redirect-project svg { margin-left: 0.45rem; }
     .thank svg, h2 svg, p svg {transform: translate(0, 2px);}
+    .mise-en-avant svg {transform: translate(0, 3px);}
 
     /* Mise en avant */
     .mise-en-avant p {
@@ -138,10 +139,10 @@
         font-size: 1.3rem;
     }
     .footer-left svg, .footer-right a, .thank svg, p svg {height: 1.3rem;}
-    .footer-left svg, .thank svg, p svg {margin-left: 0.45rem;}
-    .footer-right a, .redirect-project svg, .mise-en-avant svg { margin-left: 0.65rem; }
+    .footer-left svg, .thank svg, p svg, .mise-en-avant svg {margin-left: 0.35rem;}
+    .footer-right a, .redirect-project svg { margin-left: 0.65rem; }
     .thank svg, h2 svg, p svg {transform: translate(0, 2px);}
-
+    .mise-en-avant svg {transform: translate(0, 3px);}
     
 
 
@@ -255,10 +256,10 @@
     }
 
     .footer-left svg, .footer-right a, .thank svg, p svg {height: 1.3rem;}
-    .footer-left svg, .thank svg, p svg {margin-left: 0.45rem;}
-    .footer-right a, .redirect-project svg, .mise-en-avant svg { margin-left: 0.65rem; }
+    .footer-left svg, .thank svg, p svg, .mise-en-avant svg {margin-left: 0.35rem;}
+    .footer-right a, .redirect-project svg { margin-left: 0.65rem; }
     .thank svg, h2 svg, p svg {transform: translate(0, 2px);}
-
+    .mise-en-avant svg {transform: translate(0, 3px);}
 
     /* Mise en avant */
     .mise-en-avant {
@@ -372,9 +373,11 @@
         font-size: 1.44vw;
     }
     .footer-left svg, .footer-right a, .thank svg, p svg {height: 1.44vw;}
-    .footer-left svg, .thank svg, p svg {margin-left: 0.52vw;}
-    .footer-right a, .redirect-project svg, .mise-en-avant svg { margin-left: 0.72vw; }
+    .footer-left svg, .thank svg, p svg, .mise-en-avant svg {margin-left: 0.42vw;}
+    .footer-right a, .redirect-project svg { margin-left: 0.72vw; }
     .thank svg, h2 svg, p svg {transform: translate(0, 2px);}
+    .mise-en-avant svg {transform: translate(0, 4px);}
+
 
     /* Accroche -> Actif */
     nav h1 span, nav p span  {display: inline}
@@ -403,7 +406,7 @@
     }
     .mise-en-avant {
         grid-area: b;
-        margin: 0 30% 0 0;
+        margin: 0;
         font-size: 1.25vw;
         position: absolute;
         bottom: 0;

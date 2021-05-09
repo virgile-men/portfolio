@@ -53,8 +53,8 @@
         <section id="intro">
             <h1>MMi'SLAND</h1>
             <div class="techno">
-                <?php echo file_get_contents(CDNROOT . "/assets/images/logo/photoshop.svg"); ?>
-                <?php echo file_get_contents(CDNROOT . "/assets/images/logo/illustrator.svg"); ?>
+                <?= file_get_contents(CDNROOT . "/assets/images/logo/photoshop.svg"); ?>
+                <?= file_get_contents(CDNROOT . "/assets/images/logo/illustrator.svg"); ?>
             </div>
             <video preload="none" loop muted controls playsinline poster="<?= CDNROOT ?>/assets/videos/mmisland-intro.webp">
                 <source src="<?= CDNROOT ?>/assets/videos/mmisland-intro.mp4"
@@ -63,7 +63,7 @@
                         type="video/webm">
                 Désolé, votre navigateur ne prend pas en charge les vidéos intégrées.
             </video>
-            <p>MMi'SLAND est une campagne promotionnelle de la formation Métiers du Multimédia et de l'Internet à Champs-sur-Marne pour la journée porte-ouverte de l'Université Gustave Eiffel 2021. Le but a été de <strong>montrer la créativité et la polyvalence</strong> de la formation grâce à une direction artistique représentant la formation MMI comme une <strong>carte d'îles thématisées</strong>. Au sein de ce projet, j'ai été chargé de la <strong>direction artistique</strong> et <strong>graphiste des produits dérivés</strong> de l'affiche ainsi que des mockup du site web. J'ai partagé ce projet avec <a href="https://www.linkedin.com/in/m%C3%A9lodie-chan-789942195/" target="_blank" >Mélodie Chan<?php echo file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a>&nbsp;et&nbsp;<a href="https://www.linkedin.com/in/jean-nicanor-bastien/" target="_blank" >Jean Nicanor Bastien<?php echo file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a>.</p>
+            <p>MMi'SLAND est une campagne promotionnelle de la formation Métiers du Multimédia et de l'Internet à Champs-sur-Marne pour la journée porte-ouverte de l'Université Gustave Eiffel 2021. Le but a été de <strong>montrer la créativité et la polyvalence</strong> de la formation grâce à une direction artistique représentant la formation MMI comme une <strong>carte d'îles thématisées</strong>. Au sein de ce projet, j'ai été chargé de la <strong>direction artistique</strong> et <strong>graphiste des produits dérivés</strong> de l'affiche ainsi que des mockup du site web. J'ai partagé ce projet avec <a href="https://www.linkedin.com/in/m%C3%A9lodie-chan-789942195/" target="_blank" >Mélodie Chan<?= file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a>&nbsp;et&nbsp;<a href="https://www.linkedin.com/in/jean-nicanor-bastien/" target="_blank" >Jean Nicanor Bastien<?= file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a>.</p>
         </section>
 
         <section id="challenge">
@@ -91,8 +91,8 @@
         </section>
 
         <section id="outro">
-            <p class="thank">Remerciement à&nbsp;<a href="https://www.linkedin.com/in/fredfishdesign/" target="_blank">Frédéric Poisson<?php echo file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a>.</p>
-            <h2 class="redirect-project"><a href="https://www.behance.net/gallery/111858447/MMiSLAND" target="_blank">Voir le projet<?php echo file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a></h2>
+            <p class="thank">Remerciement à&nbsp;<a href="https://www.linkedin.com/in/fredfishdesign/" target="_blank">Frédéric Poisson<?= file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a>.</p>
+            <h2 class="redirect-project"><a href="https://www.behance.net/gallery/111858447/MMiSLAND" target="_blank">Voir le projet<?= file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a></h2>
         </section>
 
 

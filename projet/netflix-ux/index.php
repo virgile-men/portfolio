@@ -46,8 +46,8 @@
         <section id="intro">
             <h1>Netflix UX</h1>
             <div class="techno">
-                <?php echo file_get_contents(CDNROOT . "/assets/images/logo/xd.svg"); ?>
-                <?php echo file_get_contents(CDNROOT . "/assets/images/logo/photoshop.svg"); ?>
+                <?= file_get_contents(CDNROOT . "/assets/images/logo/xd.svg"); ?>
+                <?= file_get_contents(CDNROOT . "/assets/images/logo/photoshop.svg"); ?>
             </div>
             <video preload="none" loop muted controls playsinline poster="<?= CDNROOT ?>/assets/videos/netflixux-intro.webp">
                 <source src="<?= CDNROOT ?>/assets/videos/netflixux-intro.mp4"
@@ -56,7 +56,7 @@
                         type="video/webm">
                 Désolé, votre navigateur ne prend pas en charge les vidéos intégrées.
             </video>
-            <p>Dans une projection de projet client pour le module d'infographie de 1ère année MMI, j'ai réalisé en binôme un redesign de l'<strong>application desktop de Netflix</strong>. la problématique était la suivante :  "les utilisateurs sont satisfaits mais commencent à se lasser de l’interface et aimeraient qu’elle soit améliorée ainsi que d’y voir apparaître de nouvelles fonctionnalités". J'ai partagé ce projet avec <a href="https://www.linkedin.com/in/julien-dos-santos-20380a194/" target="_blank" >Julien Dos Santos<?php echo file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a>.</p>
+            <p>Dans une projection de projet client pour le module d'infographie de 1ère année MMI, j'ai réalisé en binôme un redesign de l'<strong>application desktop de Netflix</strong>. la problématique était la suivante :  "les utilisateurs sont satisfaits mais commencent à se lasser de l’interface et aimeraient qu’elle soit améliorée ainsi que d’y voir apparaître de nouvelles fonctionnalités". J'ai partagé ce projet avec <a href="https://www.linkedin.com/in/julien-dos-santos-20380a194/" target="_blank" >Julien Dos Santos<?= file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a>.</p>
         </section>
 
         <section id="challenge">
@@ -74,12 +74,12 @@
         <section id="resultats">
             <h2>Résultats</h2>
             <iframe id="resultatsMedia" src="https://www.youtube-nocookie.com/embed/uKEzz59YYKk?modestbranding=1&showinfo=0&rel=0&cc_load_policy=1&iv_load_policy=3&color=white&disablekb=1&playsinline=1"width="1920" height="1080" frameborder="0"></iframe>
-            <p>Une partie importante de ce projet a été la <strong>réalisation de la maquette</strong>. Pour ce faire, nous avons appris à utiliser Adobe XD pour passer d'un c<strong>oncept en prototype fonctionnel</strong>. Notre objectif était d’offrir à Netflix un renouveau, de lui <strong>apporter de la fraîcheur</strong>. Depuis ce projet, un concurrent à <strong>intégrer une fonctionnalité similaire à With my Friends</strong> permettant de regarder un programme ensemble à distance.</p>
+            <p>Une partie importante de ce projet a été la <strong>réalisation de la maquette</strong>. Pour ce faire, nous avons appris à utiliser Adobe XD pour passer d'un <strong>concept en prototype fonctionnel</strong>. Notre objectif était d’offrir à Netflix un renouveau, de lui <strong>apporter de la fraîcheur</strong>. Depuis ce projet, un concurrent à <strong>intégrer une fonctionnalité similaire à With my Friends</strong> permettant de regarder un programme ensemble à distance.</p>
         </section>
 
         <section id="outro">
-            <p class="thank">Remerciement à&nbsp;<a href="https://fr.linkedin.com/in/robin-llopis" target="_blank">Robin Llopis<?php echo file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a>.</p>
-            <h2 class="redirect-project"><a href="https://www.behance.net/gallery/97169935/Challenge-UX-Redesign-de-Netflix" target="_blank">Voir le projet<?php echo file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a></h2>
+            <p class="thank">Remerciement à&nbsp;<a href="https://fr.linkedin.com/in/robin-llopis" target="_blank">Robin Llopis<?= file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a>.</p>
+            <h2 class="redirect-project"><a href="https://www.behance.net/gallery/97169935/Challenge-UX-Redesign-de-Netflix" target="_blank">Voir le projet<?= file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a></h2>
         </section>
 
 
