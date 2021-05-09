@@ -82,37 +82,37 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <a href="<?= WEBROOT ?>/projet/portrait-chinois/">
-                    <img src="<?= CDNROOT ?>/assets/videos/portraitchinois-intro.webp">
+                    <img alt="Image de présentation de Portrait-chinois" src="<?= CDNROOT ?>/assets/videos/portraitchinois-intro.webp">
                     <h3 class="title-project">Portrait-chinois</h3>
                 </a>
             </div>
             <div class="swiper-slide">
                 <a href="<?= WEBROOT ?>/projet/flowwi/">
-                    <img src="<?= CDNROOT ?>/assets/videos/flowwi-intro.webp">
+                    <img alt="Image de présentation de Flowwi" src="<?= CDNROOT ?>/assets/videos/pflowwi-intro.webp">
                     <h3 class="title-project">Flowwi</h3>
                 </a>
             </div>
             <div class="swiper-slide">
                 <a href="<?= WEBROOT ?>/projet/netflix-ux/">
-                    <img src="<?= CDNROOT ?>/assets/videos/netflixux-intro.webp">
+                    <img alt="Image de présentation de Netflix UX" src="<?= CDNROOT ?>/assets/videos/pnetflixux-intro.webp">
                     <h3 class="title-project">Netflix UX</h3>
                 </a>
             </div>
             <div class="swiper-slide">
                 <a href="<?= WEBROOT ?>/projet/finance-pour-tous/">
-                    <img src="<?= CDNROOT ?>/assets/videos/financepourtous-intro.webp">
+                    <img alt="Image de présentation de Finance pour tous" src="<?= CDNROOT ?>/assets/videos/pfinancepourtous-intro.webp">
                     <h3 class="title-project filter-invert">Finance pour tous</h3>
                 </a>
             </div>
             <div class="swiper-slide">
                 <a href="<?= WEBROOT ?>/projet/nike-paris-on-air/">
-                    <img src="<?= CDNROOT ?>/assets/videos/nikeonair-intro.webp">
+                    <img alt="Image de présentation de Nike Paris On Air" src="<?= CDNROOT ?>/assets/videos/pnikeonair-intro.webp">
                     <h3 class="title-project filter-invert">Nike Paris On Air</h3>
                 </a>
             </div>
             <div class="swiper-slide">
                 <a href="<?= WEBROOT ?>/projet/mmi-sland/">
-                    <img src="<?= CDNROOT ?>/assets/videos/mmisland-intro-resultats.webp">
+                    <img alt="Image de présentation de MMi'SLAND" src="<?= CDNROOT ?>/assets/videos/pmmisland-intro-resultats.webp">
                     <h3 class="title-project">MMi'SLAND</h3>
                 </a>
             </div>

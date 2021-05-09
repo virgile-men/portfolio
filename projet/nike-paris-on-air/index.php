@@ -26,9 +26,9 @@
                         type="video/webm">
                 Désolé, votre navigateur ne prend pas en charge les vidéos intégrées.
             </video>
-            <img id="challengeMedia" src="<?= CDNROOT ?>/assets/images/nikeonair-challenge.webp">
+            <img alt="Illustration du challenge projet" id="challengeMedia" src="<?= CDNROOT ?>/assets/images/nikeonair-challenge.webp">
             <iframe id="processusMedia" src="https://www.youtube-nocookie.com/embed/dXVh_IL4qtI?modestbranding=1&showinfo=0&rel=0&cc_load_policy=1&iv_load_policy=3&color=white&disablekb=1&playsinline=1"width="1920" height="1080" frameborder="0"></iframe>
-            <img id="resultatsMedia" src="<?= CDNROOT ?>/assets/images/nikeonair-resultats.webp">
+            <img alt="Illustration du résultat du projet" id="resultatsMedia" src="<?= CDNROOT ?>/assets/images/nikeonair-resultats.webp">
             
         </div>
 
@@ -62,19 +62,19 @@
 
         <section id="challenge">
             <h2>Challenge</h2>
-            <img src="<?= CDNROOT ?>/assets/images/nikeonair-challenge.webp">
+            <img alt="Illustration du challenge projet" src="<?= CDNROOT ?>/assets/images/nikeonair-challenge.webp">
             <p>Pour ma candidature, j’ai conceptualisé cette paire : du vert émeraude ; des touches de velours rouge et de dorée ; les renforts en ton pierre. J'ai été très inspiré pour la réaliser : les édicules des stations du métro, l'architecture haussmannienne, les barres d'immeubles, l'Olympia, l’Opéra Garnier, … Grâce à ce concept, <strong>j'ai été présélectionné par Nike</strong> pour accéder aux ateliers.</p>
         </section>
 
         <section id="processus">
             <h2>Processus</h2>
-            <iframe src="https://www.youtube-nocookie.com/embed/dXVh_IL4qtI?modestbranding=1&showinfo=0&rel=0&cc_load_policy=1&iv_load_policy=3&color=white&disablekb=1&playsinline=1"width="1920" height="1080" frameborder="0"></iframe>
+            <iframe title="<?= $title ?>" src="https://www.youtube-nocookie.com/embed/dXVh_IL4qtI?modestbranding=1&showinfo=0&rel=0&cc_load_policy=1&iv_load_policy=3&color=white&disablekb=1&playsinline=1"width="1920" height="1080" frameborder="0"></iframe>
             <p>Pendant ma session, on nous informe qu’il y a des modèles imposés. Je choisis la Air Max 98, <strong>année du sacré français à Saint-Denis</strong>. Pendant 2 heures, nous devions créer sa planche avec le plus d’informations possibles avec les couleurs, le choix des matières, les inspirations, etc. J’ai trouvé ça stressant mais j’ai <strong>adoré l’ambiance qui régnait</strong> avec des <strong>designers de Nike qui nous conseillaient</strong>.</p>
         </section>
 
         <section id="resultats">
             <h2>Résultats</h2>
-            <img src="<?= CDNROOT ?>/assets/images/nikeonair-resultats.webp">
+            <img alt="Illustration du résultat du projet" src="<?= CDNROOT ?>/assets/images/nikeonair-resultats.webp">
             <p>Bien après l’événement, je trouvais que <strong>ma planche n’était pas finie</strong>. J’ai donc réalisé grâce à Photoshop une <strong>simulation photographique</strong> de ce que mon modèle final devait rendre. Cette expérience m’a énormément plu. C’était mon premier concours où je devais <strong>partager ma créativité</strong> et j'ai été très enthousiaste d'<strong>exprimer ma vision du Grand Paris</strong>.</p>
         </section>
 

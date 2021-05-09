@@ -34,10 +34,13 @@
     <!-- CDN -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
+<?php if(strpos($_SERVER['PHP_SELF'], "projet") !== false){ // Teste la page (projet ou accueil) et charge la librairie nécessaire ?>
+    <script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>
+<?php } else { ?>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<?php } ?>
 
-    <script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>
 
     <!-- CSS -->
     <link rel="stylesheet" href="<?= CDNROOT ?>/assets/styles/style.css">

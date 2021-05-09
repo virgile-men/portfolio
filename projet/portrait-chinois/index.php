@@ -34,7 +34,7 @@
                         type="video/webm">
                 Désolé, votre navigateur ne prend pas en charge les vidéos intégrées.
             </video>
-            <iframe id="resultatsMedia" src="https://www.youtube-nocookie.com/embed/tVC7CzfgDy8?modestbranding=1&showinfo=0&rel=0&cc_load_policy=1&iv_load_policy=3&color=white&disablekb=1&playsinline=1"width="1920" height="1080" frameborder="0"></iframe>
+            <iframe id="resultatsMedia" title="<?= $title ?>" src="https://www.youtube-nocookie.com/embed/tVC7CzfgDy8?modestbranding=1&showinfo=0&rel=0&cc_load_policy=1&iv_load_policy=3&color=white&disablekb=1&playsinline=1"width="1920" height="1080" frameborder="0"></iframe>
             
         </div>
 
@@ -69,7 +69,7 @@
 
         <section id="challenge">
             <h2>Challenge</h2>
-            <img class="portraitchinois-challenge" src="<?= CDNROOT ?>/assets/images/portraitchinois-challenge.png">
+            <img alt="Illustration du challenge projet"class="portraitchinois-challenge" src="<?= CDNROOT ?>/assets/images/portraitchinois-challenge.png">
             <p>Le concept a été de présenter <strong>les thèmes comme des œuvres</strong>. De cette idée, j'ai choisi de donner l'<strong>illusion de faire léviter mes textes et mes illustrations</strong> dans le décor de COLORS, une plateforme d’interprétation musicale à l'aspect minimaliste. En travaillant sur Photoshop, j'ai pu <strong>extraire l'environnement sans les couleurs</strong> et ainsi y associer mes ambiances.</p>
         </section>
 
@@ -87,7 +87,7 @@
 
         <section id="resultats">
             <h2>Résultats</h2>
-            <iframe src="https://www.youtube-nocookie.com/embed/tVC7CzfgDy8?modestbranding=1&showinfo=0&rel=0&cc_load_policy=1&iv_load_policy=3&color=white&disablekb=1&playsinline=1"width="1920" height="1080" frameborder="0"></iframe>
+            <iframe title="<?= $title ?>" src="https://www.youtube-nocookie.com/embed/tVC7CzfgDy8?modestbranding=1&showinfo=0&rel=0&cc_load_policy=1&iv_load_policy=3&color=white&disablekb=1&playsinline=1"width="1920" height="1080" frameborder="0"></iframe>
             <p>Ce projet a été mon <strong>premier site web</strong> qui me représentait. J'ai voulu le rendre autant accessible sur ordinateur que sur téléphone. J'ai été fier de le montrer à mes proches mais également à toute personne lors de déplacement.</p>
         </section>
 

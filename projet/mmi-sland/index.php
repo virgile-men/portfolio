@@ -26,8 +26,8 @@
                         type="video/webm">
                 Désolé, votre navigateur ne prend pas en charge les vidéos intégrées.
             </video>
-            <img id="challengeMedia" src="<?= CDNROOT ?>/assets/images/mmisland-challenge.webp">
-            <img id="processusMedia" src="<?= CDNROOT ?>/assets/images/mmisland-processus.webp">
+            <img alt="Illustration du challenge projet" id="challengeMedia" src="<?= CDNROOT ?>/assets/images/mmisland-challenge.webp">
+            <img alt="Illustration du processus du projet" id="processusMedia" src="<?= CDNROOT ?>/assets/images/mmisland-processus.webp">
             <video preload="none" id="resultatsMedia" loop muted autoplay>
                 <source src="<?= CDNROOT ?>/assets/videos/mmisland-intro-resultats.mp4"
                         type="video/mp4">
@@ -56,7 +56,7 @@
                 <?= file_get_contents(CDNROOT . "/assets/images/logo/photoshop.svg"); ?>
                 <?= file_get_contents(CDNROOT . "/assets/images/logo/illustrator.svg"); ?>
             </div>
-            <video preload="none" loop muted controls playsinline poster="<?= CDNROOT ?>/assets/videos/mmisland-intro.webp">
+            <video preload="none" loop muted controls playsinline poster="<?= CDNROOT ?>/assets/videos/mmisland-intro-resultats.webp">
                 <source src="<?= CDNROOT ?>/assets/videos/mmisland-intro.mp4"
                         type="video/mp4">
                 <source src="<?= CDNROOT ?>/assets/videos/mmisland-intro.webm"
@@ -68,13 +68,13 @@
 
         <section id="challenge">
             <h2>Challenge</h2>
-            <img class="mmisland-challenge" src="<?= CDNROOT ?>/assets/images/mmisland-challenge.webp">
+            <img alt="Illustration du challenge projet"class="mmisland-challenge" src="<?= CDNROOT ?>/assets/images/mmisland-challenge.webp">
             <p>L'idée originale était de <strong>créer un parc d'attractions des différents domaines</strong> de la formation. Le but étant de mettre en avant <strong>la localisation proche de Disneyland</strong> et également de représenter la créativité et la polyvance de la formation par une <strong>pluralité d'univers réunis à un seul endroit</strong>.</p>
         </section>
 
         <section id="processus">
             <h2>Processus</h2>
-            <img src="<?= CDNROOT ?>/assets/images/mmisland-processus.webp">
+            <img alt="Illustration du processus du projet" src="<?= CDNROOT ?>/assets/images/mmisland-processus.webp">
             <p>En tant que graphiste, j'ai principalement utilisé Photoshop et Illustrator. Me basant sur l'affiche de Mélodie j'ai réalisé une série de goodies en utilisant des mock-up de masque et de portes-clés. En gardant toujours en tête l'idée originale, j'ai réalisé des billets d'entrées comme pour un parc d'attraction. Pour la maquette de Jean Nicanor, j'ai réalisé des <strong>mock-up 3D</strong> de mobile et ordinateur. Ces derniers mettent en avant la <strong>modernité du site</strong>. En manipulant les mock-up 3D, j'ai découvert une nouvelle manière de créer des projets Photoshop grâce aux <strong>textures</strong> et à la <strong>simulation de lumière</strong>.</p>
         </section>
 

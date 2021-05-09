@@ -26,9 +26,9 @@
                         type="video/webm">
                 Désolé, votre navigateur ne prend pas en charge les vidéos intégrées.
             </video>
-            <img id="challengeMedia" src="<?= CDNROOT ?>/assets/images/netflixux-challenge.webp">
-            <img id="processusMedia" src="<?= CDNROOT ?>/assets/images/netflixux-processus.webp">
-            <iframe id="resultatsMedia" src="https://www.youtube-nocookie.com/embed/uKEzz59YYKk?modestbranding=1&showinfo=0&rel=0&cc_load_policy=1&iv_load_policy=3&color=white&disablekb=1&playsinline=1"width="1920" height="1080" frameborder="0"></iframe>
+            <img alt="Illustration du challenge projet" id="challengeMedia" src="<?= CDNROOT ?>/assets/images/netflixux-challenge.webp">
+            <img alt="Illustration du processus du projet" id="processusMedia" src="<?= CDNROOT ?>/assets/images/netflixux-processus.webp">
+            <iframe id="resultatsMedia" title="<?= $title ?>" src="https://www.youtube-nocookie.com/embed/uKEzz59YYKk?modestbranding=1&showinfo=0&rel=0&cc_load_policy=1&iv_load_policy=3&color=white&disablekb=1&playsinline=1"width="1920" height="1080" frameborder="0"></iframe>
             
         </div>
 
@@ -61,19 +61,19 @@
 
         <section id="challenge">
             <h2>Challenge</h2>
-            <img src="<?= CDNROOT ?>/assets/images/netflixux-challenge.webp">
+            <img alt="Illustration du challenge projet" src="<?= CDNROOT ?>/assets/images/netflixux-challenge.webp">
             <p>Notre nouvelle fonctionnalité : <strong>With my Friends</strong>. Il s'agit d'un tout nouveau système implémenté permettant : d'avoir une liste d'amis, de créer une page de profil public et d'avoir la possibilité de synchroniser la diffusion d'un même programme en temps réel avec son entourage. Toutes ces nouveautés permettent d'apporter une <strong>solution au manque d'interaction interne</strong> à la plateforme entre les utilisateurs.</p>
         </section>
 
         <section id="processus">
             <h2>Processus</h2>
-            <img src="<?= CDNROOT ?>/assets/images/netflixux-processus.webp">
+            <img alt="Illustration du processus du projet" src="<?= CDNROOT ?>/assets/images/netflixux-processus.webp">
             <p>De ce fait, nous avons procédé en 3 parties : <strong>analyse de l'existant</strong>, <strong>ciblage du site</strong> et <strong>conception fonctionnelle</strong>. Pour rester sur la première, nous avons réalisé un <strong>benchmark</strong>, l'<strong>audit ergonomique</strong> du marché ainsi que des <strong>tests utilisateurs</strong>. Nous avons également relevé l'<strong>inventaire des contenus</strong> car nous devions garder la même <strong>charte graphique</strong>.</p>
         </section>
 
         <section id="resultats">
             <h2>Résultats</h2>
-            <iframe id="resultatsMedia" src="https://www.youtube-nocookie.com/embed/uKEzz59YYKk?modestbranding=1&showinfo=0&rel=0&cc_load_policy=1&iv_load_policy=3&color=white&disablekb=1&playsinline=1"width="1920" height="1080" frameborder="0"></iframe>
+            <iframe id="resultatsMedia" title="<?= $title ?>" src="https://www.youtube-nocookie.com/embed/uKEzz59YYKk?modestbranding=1&showinfo=0&rel=0&cc_load_policy=1&iv_load_policy=3&color=white&disablekb=1&playsinline=1"width="1920" height="1080" frameborder="0"></iframe>
             <p>Une partie importante de ce projet a été la <strong>réalisation de la maquette</strong>. Pour ce faire, nous avons appris à utiliser Adobe XD pour passer d'un <strong>concept en prototype fonctionnel</strong>. Notre objectif était d’offrir à Netflix un renouveau, de lui <strong>apporter de la fraîcheur</strong>. Depuis ce projet, un concurrent à <strong>intégrer une fonctionnalité similaire à With my Friends</strong> permettant de regarder un programme ensemble à distance.</p>
         </section>
 
