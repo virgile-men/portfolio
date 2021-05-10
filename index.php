@@ -88,31 +88,31 @@
             </div>
             <div class="swiper-slide">
                 <a href="<?= WEBROOT ?>/projet/flowwi/">
-                    <img alt="Image de présentation de Flowwi" src="<?= CDNROOT ?>/assets/videos/pflowwi-intro.webp">
+                    <img alt="Image de présentation de Flowwi" src="<?= CDNROOT ?>/assets/videos/flowwi-intro.webp">
                     <h3 class="title-project">Flowwi</h3>
                 </a>
             </div>
             <div class="swiper-slide">
                 <a href="<?= WEBROOT ?>/projet/netflix-ux/">
-                    <img alt="Image de présentation de Netflix UX" src="<?= CDNROOT ?>/assets/videos/pnetflixux-intro.webp">
+                    <img alt="Image de présentation de Netflix UX" src="<?= CDNROOT ?>/assets/videos/netflixux-intro.webp">
                     <h3 class="title-project">Netflix UX</h3>
                 </a>
             </div>
             <div class="swiper-slide">
                 <a href="<?= WEBROOT ?>/projet/finance-pour-tous/">
-                    <img alt="Image de présentation de Finance pour tous" src="<?= CDNROOT ?>/assets/videos/pfinancepourtous-intro.webp">
+                    <img alt="Image de présentation de Finance pour tous" src="<?= CDNROOT ?>/assets/videos/financepourtous-intro.webp">
                     <h3 class="title-project filter-invert">Finance pour tous</h3>
                 </a>
             </div>
             <div class="swiper-slide">
                 <a href="<?= WEBROOT ?>/projet/nike-paris-on-air/">
-                    <img alt="Image de présentation de Nike Paris On Air" src="<?= CDNROOT ?>/assets/videos/pnikeonair-intro.webp">
+                    <img alt="Image de présentation de Nike Paris On Air" src="<?= CDNROOT ?>/assets/videos/nikeonair-intro.webp">
                     <h3 class="title-project filter-invert">Nike Paris On Air</h3>
                 </a>
             </div>
             <div class="swiper-slide">
                 <a href="<?= WEBROOT ?>/projet/mmi-sland/">
-                    <img alt="Image de présentation de MMi'SLAND" src="<?= CDNROOT ?>/assets/videos/pmmisland-intro-resultats.webp">
+                    <img alt="Image de présentation de MMi'SLAND" src="<?= CDNROOT ?>/assets/videos/mmisland-intro-resultats.webp">
                     <h3 class="title-project">MMi'SLAND</h3>
                 </a>
             </div>
