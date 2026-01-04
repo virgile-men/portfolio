@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Page protégée"
+AuthUserFile /home/clients/53785c4757e78f0759fabc45fe665e97/sites/virgile.men/projet/moodle-alternatif/.htpasswd
+require valid-user
