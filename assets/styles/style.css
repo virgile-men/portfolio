@@ -3,6 +3,11 @@ html {
     scroll-behavior: smooth;
 }
 
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
 @media (prefers-color-scheme: light) {
     :root {
         /* Mode clair */
@@ -103,13 +108,13 @@ footer a {
 
 
 @media (prefers-color-scheme: dark) { /* Logo SVG */
-    .svg-github > path, .svg-behance > .st0 {
+    .svg-github > path, .svg-behance > .st0, .svg-linkedin > .st0 {
         fill: var(--color-font) !important;
     }
     .svg-external-link * {
         stroke: var(--color-font) !important;
     }
-    .svg-behance > .st1 {
+    .svg-behance > .st1, .svg-linkedin > .st1 {
         fill: var(--color-background) !important;
     }
 }
@@ -172,6 +177,7 @@ li a:hover {
 }
 .portfolio .title-project {
     font-weight: 800;
+    font-family: 'Inter', sans-serif;
     color: #ffffff;
 
     position: absolute;
@@ -239,12 +245,14 @@ article p {
 
 .article-project h1 {
     font-weight: 800;
+    font-family: 'Inter', sans-serif;
     text-align: center;
 }
 .techno svg {
     height: 100%;
 }
 .article-project h2, .redirect-project {
+    font-family: 'Inter', sans-serif;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: thin var(--color-font);
 }

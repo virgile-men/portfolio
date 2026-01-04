@@ -33,6 +33,8 @@
         font-size: 4vw;
         line-height: 5.95vw;
     }
+    .mise-en-avant br {display: none}
+
     .preview {display: none}
     
 
@@ -53,7 +55,8 @@
         transform: scale(0.96);
     }
     .portfolio .title-project {
-        font-size: 7vw;
+        /* font-size: 7vw; */
+        font-size: 7.56vw;
         margin: 7%;
     }
 
@@ -90,7 +93,8 @@
     /* ./projet/  */
     .article-project h1 {
         margin: 0 0 2vw;
-        font-size: 6.25vw;
+        /* font-size: 6.25vw; */
+        font-size: 6.75vw;
     }
     
     .techno {
@@ -151,6 +155,8 @@
         margin: 1rem 0;
         font-size: 4vw; 
     }
+
+    .mise-en-avant br {display: none}
     
 
 
@@ -165,7 +171,8 @@
         transform: scale(0.94);
     }
     .title-project {
-        font-size: 5.5vw;
+        /* font-size: 5.5vw; */
+        font-size: 5.94vw;
         margin: 5%;
     }
 
@@ -207,7 +214,8 @@
 
     .article-project h1 {
         margin: 0 0 2vw;
-        font-size: 5.5vw;
+        /* font-size: 5.5vw; */
+        font-size: 5.94vw;
     }
     
     .techno {
@@ -280,7 +288,8 @@
         transform: scale(0.93);
     }
     .title-project {
-        font-size: 3.8rem;
+        /* font-size: 3.8rem; */
+        font-size: 4.1rem;
         margin: 5%;
     }
 
@@ -323,7 +332,8 @@
 
     .article-project h1 {
         margin: 0 0 2vw;
-        font-size: 5.5vw;
+        /* font-size: 5.5vw; */
+        font-size: 5.94vw;
     }
     
     .techno {
@@ -438,8 +448,11 @@
     }
     li {
         font-weight: 800;
-        font-size: 4.16vw;
-        margin-bottom: 2.08vw;
+        /* font-size: 4.16vw; Montserrat */
+        /* margin-bottom: 2.08vw; Montserrat */
+        font-size: 4.5vw;
+        margin-bottom: 1.65vw;
+        font-family: 'Inter', sans-serif;
     }
     li:last-child {
         margin-bottom: 0;
@@ -567,7 +580,8 @@
 
     .article-project h1 {
         margin: 0 0 1vw;
-        font-size: 4.16vw;
+        font-size: 4.5vw;
+        /* font-size: 4.16vw; */
         text-align: left;
     }
     
