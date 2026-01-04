@@ -1,0 +1,50 @@
+---
+import ProjectLayout from '../../layouts/ProjectLayout.astro';
+import TechIcon from '../../components/TechIcon.astro';
+import ExternalLink from '../../components/ExternalLink.astro';
+
+const title = "Moodle alternatif - Virgile Mendes";
+const description = "Dans le cadre du cours d'analyse et conception de logiciels à l'ETS, notre équipe de 6 étudiants avons réalisé une application front-end d'un système de gestion de l'apprentissage qui ressemble à Moodle utilisé dans une université fictive.";
+---
+
+<ProjectLayout title={title} description={description}>
+    <Fragment slot="medias">
+        <video preload="none" class="media-actived" id="introMedia" loop muted autoplay>
+            <source src="/videos/moodle-alternatif-intro.mp4" type="video/mp4">
+            <source src="/videos/moodle-alternatif-intro.webm" type="video/webm">
+            Désolé, votre navigateur ne prend pas en charge les vidéos intégrées.
+        </video>
+    </Fragment>
+
+    <section id="intro">
+        <h1>Moodle alternatif</h1>
+        <div class="techno">
+            <TechIcon name="typescript" />
+            <TechIcon name="plantuml" />
+        </div>
+        <video preload="none" loop muted controls playsinline poster="/videos/moodle-alternatif-intro.webp">
+            <source src="/videos/moodle-alternatif-intro.mp4" type="video/mp4">
+            <source src="/videos/moodle-alternatif-intro.webm" type="video/webm">
+            Désolé, votre navigateur ne prend pas en charge les vidéos intégrées.
+        </video>
+        <p>Dans le cadre du cours d'analyse et conception de logiciels à l'ETS, notre équipe de 6 étudiants avons réalisé une application front-end d'un système de gestion de l'apprentissage qui ressemble à Moodle utilisé dans une université fictive. Au sein de ce projet j'ai été <strong>développeur</strong> TypeScript. J'ai partagé ce projet avec Pascal Puttee, Jamal Malti,&nbsp;<a target="_blank" href="https://www.linkedin.com/in/rose-mérel-a26615193/">Rose Mérel<ExternalLink /></a>,&nbsp;<a target="_blank" href="https://www.linkedin.com/in/loïc-cyr/">Loïc Cyr<ExternalLink /></a>&nbsp;et&nbsp;un autre étudiant.</p>
+        <p>Vous pouvez utiliser le courriel cc-yvan.ross@etsmtl.ca et 'professeur' comme mot de passe pour accéder à un compte enseignant.</p>
+    </section>
+
+    <section id="challenge">
+        <h2>Challenge</h2>
+    </section>
+
+    <section id="processus">
+        <h2>Processus</h2>
+    </section>
+
+    <section id="resultats">
+        <h2>Résultats</h2>
+    </section>
+
+    <section id="outro">
+        <p class="thank">Remerciements à&nbsp;<a href="https://www.linkedin.com/in/yvanross" target="_blank">Yvan Ross<ExternalLink /></a>, <a href="https://www.linkedin.com/in/vincent-alix-joly-118685238" target="_blank">Vincent Alix-Joly<ExternalLink /></a>&nbsp;et&nbsp;<a href="https://www.linkedin.com/in/davy-castanet-qa-dev" target="_blank">Davy Castanet<ExternalLink /></a></p>
+        <h2 class="redirect-project"><a href="https://moodle-alternatif.virgile.men/" target="_blank">Voir le projet<ExternalLink /></a></h2>
+    </section>
+</ProjectLayout>

@@ -1,0 +1,70 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Alert from '../components/Alert.astro';
+
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<BaseLayout title={title} description={description} isProject={true}>
+    <Header isProject={true} />
+
+    <div id="medias-fixed">
+        <div class="medias flex-center">
+            <slot name="medias" />
+        </div>
+        <Alert isProject={true} />
+    </div>
+
+    <main class="display-projet flex-center">
+        <div>
+            <!-- Zone libre afficher les medias desktop -->
+        </div>
+
+        <article class="article-project" id="article">
+            <slot />
+        </article>
+    </main>
+
+    <Footer />
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            if (typeof $ === 'undefined') return;
+            
+            const scrollEntreDeuxOffset = (section1: string, section2: string) =>
+                $(window).scrollTop()! >= ($(`${section1}`).offset()!.top - ($(window).height()! / 2)) && 
+                $(window).scrollTop()! < ($(`${section2}`).offset()!.top - ($(window).height()! / 2));
+
+            $(window).scroll(function() {
+                if (scrollEntreDeuxOffset("#intro","#challenge")) {
+                    showMediaDesktop('intro');
+                }
+                if (scrollEntreDeuxOffset("#challenge","#processus")) {
+                    showMediaDesktop('challenge');
+                }
+                if (scrollEntreDeuxOffset("#processus","#resultats")) {
+                    showMediaDesktop('processus');
+                }
+                if ($(window).scrollTop()! >= ($("#resultats").offset()!.top - ($(window).height()! / 2))) {
+                    showMediaDesktop('resultats');
+                }
+            });
+
+            function showMediaDesktop(section: string) {
+                if($(`#${section}Media`).hasClass('media-actived') == false){
+                    $(".medias > *").removeClass("media-actived");
+                    $(`#${section}Media`).addClass("media-actived");
+                    $("section > *").removeClass("article-project-h2-active");
+                    $(`#${section} h2`).addClass("article-project-h2-active");
+                }
+            }
+        });
+    </script>
+</BaseLayout>
