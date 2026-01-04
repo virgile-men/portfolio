@@ -33,6 +33,8 @@
 
     <!-- CDN -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 
 <?php if(strpos($_SERVER['PHP_SELF'], "projet") !== false){ // Teste la page (projet ou accueil) et charge la librairie nécessaire ?>
     <script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>

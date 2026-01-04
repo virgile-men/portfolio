@@ -80,7 +80,7 @@
 
         <section id="outro">
             <p class="thank">Remerciement à&nbsp;<a href="https://www.linkedin.com/in/philippe-gambette-88759153" target="_blank">Philippe Gambette<?= file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a>&nbsp;et&nbsp;<a href="https://www.linkedin.com/in/alexandre-ferraille-69116889/" target="_blank">Alexandre Ferraille<?= file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a></p>
-            <h2 class="redirect-project"><a href="https://flowwi.fr/" target="_blank">Voir le projet<?= file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a></h2>
+            <h2 class="redirect-project"><a href="https://flowwi.virgile.men/" target="_blank">Voir le projet<?= file_get_contents(CDNROOT . "/assets/images/logo/external-link.svg"); ?></a></h2>
         </section>
 
 

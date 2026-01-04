@@ -7,7 +7,8 @@
 if ($_SERVER['SERVER_NAME'] == "virgile.men") {
     define('ROOT',$_SERVER['DOCUMENT_ROOT']);
     define('WEBROOT','https://virgile.men');
-    define('CDNROOT','https://cdn.jsdelivr.net/gh/virgile-men/portfolio');
+    //Cloudflare s'occupe déjà de cache les fiches /assets/
+    define('CDNROOT','https://virgile.men');
 } else {
     define('ROOT', $_SERVER['DOCUMENT_ROOT'] . '/virgile-men');
     define('WEBROOT','http://' . $_SERVER['SERVER_NAME'] . '/virgile-men');
