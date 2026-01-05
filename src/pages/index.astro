@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import Alert from '../components/Alert.astro';
 
 const title = "Virgile Mendes - Développeur full-stack";
 const description = "Découvrez une sélection de mes projets créatif en développement web et design numérique ainsi que mon parcous, mes compétences et mes expériences";
@@ -30,6 +31,8 @@ const projects = [
                 </video>
             ))}
         </div>
+
+        <Alert />
 
         <section class="projets">
             <h2>Sélection de projets</h2>
