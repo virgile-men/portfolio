@@ -79,11 +79,11 @@
     .etudes h4:nth-child(2), .experiences h4:nth-child(2) {
         margin: 0;
     }
-    .competences h4:last-child, .interets h4:last-child {
+    .competences h4:last-child, .realisations h4:last-child {
         margin: 0 0 9.6vw;
         padding: 0 20% 0 0;
     }
-    .etudes p, .experiences p, .comptences p, .interets p {
+    .etudes p, .experiences p, .comptences p, .realisations p {
         font-size: clamp(12px, 2.4vw, 2.45vw);
         margin: 0 0 9.6vw;
         padding: 0 25% 0 0;
@@ -195,11 +195,11 @@
     .etudes h4:nth-child(2), .experiences h4:nth-child(2) {
         margin: 0;
     }
-    .competences h4:last-child, .interets h4:last-child {
+    .competences h4:last-child, .realisations h4:last-child {
         margin: 0 0 1.8rem;
         padding: 0 20% 0 0;
     }
-    .etudes p, .experiences p, .comptences p, .interets p {
+    .etudes p, .experiences p, .comptences p, .realisations p {
         font-size: clamp(12px, 1.1rem, 1.15rem);
         margin: 0 0 2rem;
         padding: 0 25% 0 0;
@@ -312,11 +312,11 @@
     .etudes h4:nth-child(2), .experiences h4:nth-child(2) {
         margin: 0;
     }
-    .competences h4:last-child, .interets h4:last-child {
+    .competences h4:last-child, .realisations h4:last-child {
         margin: 0 0 1.8rem;
         padding: 0 20% 0 0;
     }
-    .etudes p, .experiences p, .comptences p, .interets p {
+    .etudes p, .experiences p, .comptences p, .realisations p {
         font-size: clamp(12px, 1.4rem, 1.45rem);
         line-height: 1.9rem;
         margin: 0 0 2rem;
@@ -510,11 +510,11 @@
     .etudes h4:nth-child(2), .experiences h4:nth-child(2) {
         margin: 0;
     }
-    .competences h4:last-child, .interets h4:last-child {
+    .competences h4:last-child, .realisations h4:last-child {
         margin: 0 0 3.2vw;
         padding: 0 20% 0 0;
     }
-    .etudes p, .experiences p, .comptences p, .interets p {
+    .etudes p, .experiences p, .comptences p, .realisations p {
         font-size: clamp(12px, .75vw, .80vw);
         margin: 0 0 3.2vw;
         padding: 0 25% 0 0;
