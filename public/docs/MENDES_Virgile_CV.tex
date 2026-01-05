@@ -1,0 +1,289 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \if\relax\detokenize{#3}\relax\else
+        \textit{\small #3} & \textit{\small #4} \\
+      \fi
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Virgile Mendes} \\ \vspace{1pt}
+    Montreal, QC \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 514 478-2200 ~ \href{mailto:contact@virgile.men}{\raisebox{-0.2\height}\faEnvelope\  \underline{contact@virgile.men}} ~ 
+    \href{https://www.linkedin.com/in/virgile-men/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/virgile-men}} ~
+    \href{https://github.com/virgile-men}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/virgile-men}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------DIPLOMES-----------
+\section{Diplômes}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {École de Technologie Supérieure (ÉTS)}{2025}
+      {Baccalauréat en Génie Logiciel}{Montreal, QC}
+    \resumeSubheading
+      {IUT Champs-sur-Marne, Université Gustave Eiffel}{2021}
+      {Diplôme universitaire de technologie - Métiers du Multimédia et de l'Internet}{France}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Expériences}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {École de technologie supérieure}{Juillet 2025 -- Décembre 2025}
+      {Auxiliaire d'enseignements}{Montréal, QC}
+      \resumeItemListStart
+        \resumeItem{Animer et présenter les séances de laboratoire pour les cours LOG210, LOG240 et GTI611}
+        \resumeItem{Accompagner les étudiants dans la réalisation des travaux pratiques et projets}
+        \resumeItem{Assurer la résolution de conflits et encadrer le travail en équipe}
+        \resumeItem{Évaluer les rapports de laboratoire ainsi que le code soumis par les étudiants}
+        \resumeItem{\textit{\textbf{Mandat spécial pour LOG240}} : migration vers une VM unique et adoption d'un GitLab auto-hébergé, substitution de Visual Paradigm par PlantUML, remplacement de TRAC par les outils intégrés à GitLab, intégration de pull requests avec modèles personnalisés, remplacement de UISpec4J par Playwright pour les tests end-to-end, mise à jour vers JUnit 5, ajout de githooks pour exécuter automatiquement les tests unitaires, et script multiplateforme simulant un pipeline CI/CD}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {ISIOS}{Janvier 2023 -- Juin 2025}
+      {Développeur full-stack}{À distance, QC}
+      \resumeItemListStart
+        \resumeItem{Corriger les anomalies de la plateforme en TypeScript, PHP et SQL}
+        \resumeItem{Créer des fonctionnalités client selon les conditions d'acceptation et les normes de tests}
+        \resumeItem{Bonifier l'exportation de rapports (PDF, Excel)}
+        \resumeItem{Réusiner le code back-end PHP conformément aux standards ISIOS}
+        \resumeItem{Procéder à l'analyse des récits utilisateurs puis tester les parcours à travers Playwright}
+        \resumeItem{\textit{\textbf{Réalisations du stage de 2023}} : automatisation complète des tests end-to-end via GitLab CI/CD, intégration de l'outil Matomo pour le suivi de l'expérience utilisateur, création d'une interface front-end connectée par API pour visualiser en temps réel des données issues de sources tierces, conception d'un module d'intelligence d'affaire (BI) en PHP basé sur le modèle ETL}
+        \resumeItem{\textit{\textbf{Réalisations du stage de 2025}} : développement d'un agent AI à l'aide de LangGraph pour de l'extraction de données propulsé par des LLM open-sources}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Desjardins}{Mai 2022 -- Décembre 2022}
+      {Analyste-programmeur}{Montréal, QC}
+      \resumeItemListStart
+        \resumeItem{Mise sur pied d'un logiciel ETL développé en C\# .NET générant un fichier Excel comparant des données récupérées de différentes sources externes}
+        \resumeItem{Préparer la documentation accompagnant chaque programme et destinée aux usagers}
+        \resumeItem{Faire de la programmation orientée objet et exécuter des stratégies de tests}
+      \resumeItemListEnd
+
+    
+  \resumeSubHeadingListEnd
+  
+  
+
+\vspace{-16pt}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Compétences Techniques}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Langages}{: JavaScript (ES6), PHP, SQL, Python, Java, C\#, HTML5, CSS3} \\
+     \textbf{Frameworks / Librairies}{: React, NodeJS, .NET, JUnit, Maven, Playwright, LangChain} \\
+     \textbf{Plateformes \& CMS}{: WordPress, Prestashop, Elementor, Divi, WooCommerce} \\
+     \textbf{DevOps \& CI/CD}{: GitHub Actions, Docker, Kubernetes, CI/CD Pipelines, Grafana} \\
+     \textbf{Bases de données}{: MongoDB, PostgreSQL, SQL Server, phpMyAdmin} \\
+     \textbf{Infrastructure \& Cloud}{: Cloudflare, OVH, Oracle, MacOS, Windows, Ubuntu} \\
+     \textbf{Compétences fonctionnelles}{: Architecture logicielle et conception d'interfaces utilisateur, Intégration d'API (REST et GraphQL), flux ETL, Développement piloté par les tests (TDD), pull-requests, Référencement technique (SEO), Intégration continue \& livraison continue, Documentation technique (normes APA), DevOps \& outils collaboratifs (Confluence, Gantt), Méthodologies Agiles (Scrum/Kanban)} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projets}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Vue d'ensemble avec la sécurité des réseaux d'entreprise}{Mai 2025 -- Août 2025}
+      {Projet d'études}{GTI719, ÉTS}
+      \resumeItemListStart
+        \resumeItem{Analyse de risque et processus d'audit selon Octave® Allegro}
+        \resumeItem{Familiariser avec les fédérations d'identités (délégation d'authentification IdP, OAuth)}
+        \resumeItem{Déploiement sécurisé de conteneurs Docker grâce à un orchestrateur Kubernetes}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Développement d'une application complexe de gestion de données}{Janvier 2025 -- Avril 2025}
+      {Projet d'études}{LOG660, ÉTS}
+      \resumeItemListStart
+        \resumeItem{Analyse des besoins, conception du schéma relationnel, modélisation des règles d'affaires et insertion des données}
+        \resumeItem{Développement d'une interface programme-BD à l'aide d'un framework de persistance transparente}
+        \resumeItem{Optimisation de requêtes et analyse de la performance}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Conception et programmation d'un laboratoire de DevOps}{Septembre 2024 -- Décembre 2024}
+      {Projet d'études}{LOG680, ÉTS}
+      \resumeItemListStart
+        \resumeItem{Automatisation de tests unitaire à travers des pre-commit}
+        \resumeItem{Automatisation de tests d'intégration à travers un pipeline Github Action}
+        \resumeItem{Déploiement continu d'une image Docker jusqu'à son déploiement dans un cluster Kubernetes}
+        \resumeItem{Monitoring et visualisation de métriques à travers une instance Grafana}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Amélioration d'une architecture de microservices}{Septembre 2024 -- Décembre 2024}
+      {Projet d'études}{LOG430, ÉTS}
+      \resumeItemListStart
+        \resumeItem{Intégration de microservices Docker pour comparer les trajets en autobus et voiture à l'aide de données GTFS et de l'API TomTom}
+        \resumeItem{Mise en place de tactiques de redondance active et passive pour assurer la haute disponibilité des services}
+        \resumeItem{Résilience du système aux défaillances via injection de fautes avec Chaos Monkey (pods computation, connecteurs, volumes Docker)}
+        \resumeItem{Réplication des files de messages RabbitMQ avec quorum queues et reconnections automatiques avec ServiceMeshHelper}
+        \resumeItem{Analyse de performance (throughput, stabilité, erreurs, temps de rétablissement)}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Hébergement de services}{Février 2024 -- Aujourd'hui}
+      {Projet personnel}{Raspberry Pi \& Cloudflare}
+      \resumeItemListStart
+        \resumeItem{Automatisation de workflow à travers n8n}
+        \resumeItem{Migration de données Cloud sur Nextcloud}
+        \resumeItem{Création de logiciels répondant à des problématiques avec des API de LLM (OpenAI, Gemini, etc)}
+        \resumeItem{Gestion de l'ensemble des projets à travers de la containerisation Docker}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Hackathon Mobile Challenge}{Janvier 2024}
+      {Projet personnel}{ApplETS, Montréal}
+      \resumeItemListStart
+        \resumeItem{Conception d'une application mobile en 24h : \textit{Villes intelligentes pour un avenir durable}}
+        \resumeItem{Prototypage d'UrbanEco, une application récompensant les comportements écoresponsables}
+        \resumeItem{Apprentissage accéléré de Flutter dans un temps limité}
+        \resumeItem{Gestion et travail collaboratif sous pression}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Candidat à la Profession d'Ingénieur}{Depuis 2025}
+      {Ordre des Ingénieurs du Québec}{QC, Canada}
+    \resumeSubheading
+      {Hugging Face Agents Course}{30 Juin 2025}
+      {Cours sur les agents d'intelligence artificielle}{Hugging Face}
+  \resumeSubHeadingListEnd
+
+%-----------VOLUNTEERING-----------
+\section{Bénévolat et comité}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {École de Technologie Supérieure}{Septembre 2024 -- Juin 2025}
+      {Comité institutionnel sur la santé mentale étudiante}{Montreal, QC}
+    \resumeSubheading
+      {Lycée Saint Jean Baptiste de la Salle}{Septembre 2018 -- Mai 2019}
+      {Accueillir, alphabétiser, Apprendre le français}{France}
+  \resumeSubHeadingListEnd
+
+
+\end{document}

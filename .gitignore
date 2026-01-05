@@ -25,3 +25,11 @@ pnpm-debug.log*
 
 # Astro
 .astro/
+
+# Latex
+public/docs/*.log
+public/docs/*.aux
+public/docs/*.fls
+public/docs/*.fdb_latexmk
+public/docs/*.out
+public/docs/*.synctex.gz
