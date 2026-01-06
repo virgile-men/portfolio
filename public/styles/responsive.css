@@ -67,6 +67,10 @@
         font-size: 6.25vw;
         margin: 2.5rem 0 3.6vw;
     }
+    /* Reset grid layout pour mobile - forcer colonne */
+    .etudes article, .experiences article {
+        display: block;
+    }
     article h3 {
         font-size: 5.1vw;
         margin: 0 0 2.4vw;
@@ -76,14 +80,11 @@
         font-size: 5vw;
         margin: 0 0 2.4vw;
     }
-    .etudes h4:nth-child(2), .experiences h4:nth-child(2) {
-        margin: 0;
-    }
-    .competences h4:last-child, .realisations h4:last-child, .projets-personnels h4 {
+    .competences h4:last-child, .realisations h4:last-child, .projets-personnels h4:last-child {
         margin: 0 0 9.6vw;
         padding: 0 20% 0 0;
     }
-    .etudes p, .experiences p, .comptences p, .realisations p, .projets-personnels p {
+    .etudes p, .experiences p, .comptences p, .realisations p, .projets-personnels p{
         font-size: clamp(12px, 2.4vw, 2.45vw);
         margin: 0 0 9.6vw;
         padding: 0 25% 0 0;
@@ -183,6 +184,10 @@
         font-size: 5.5vw;
         margin: 2.5rem 0 1.5rem;
     }
+    /* Reset grid layout pour mobile - forcer colonne */
+    .etudes article, .experiences article {
+        display: block;
+    }
     article h3 {
         font-size: 2.3rem; /* 5.1vw */
         margin: 0 0 .9rem;
@@ -192,10 +197,7 @@
         font-size: 2.2rem;
         margin: 0 0 .5rem;
     }
-    .etudes h4:nth-child(2), .experiences h4:nth-child(2) {
-        margin: 0;
-    }
-    .competences h4:last-child, .realisations h4:last-child, .projets-personnels h4 {
+    .competences h4:last-child, .realisations h4:last-child, .projets-personnels h4:last-child {
         margin: 0 0 1.8rem;
         padding: 0 20% 0 0;
     }
@@ -300,6 +302,10 @@
         font-size: 3.8rem;
         margin: 2.5rem 0 1.5rem;
     }
+    /* Reset grid layout pour tablet portrait - forcer colonne */
+    .etudes article, .experiences article {
+        display: block;
+    }
     article h3 {
         font-size: 3.2rem;
         margin: 0 0 .9rem;
@@ -309,10 +315,7 @@
         font-size: 2.5rem;
         margin: 0 0 .5rem;
     }
-    .etudes h4:nth-child(2), .experiences h4:nth-child(2) {
-        margin: 0;
-    }
-    .competences h4:last-child, .realisations h4:last-child, .projets-personnels h4 {
+    .competences h4:last-child, .realisations h4:last-child, .projets-personnels h4:last-child {
         margin: 0 0 1.8rem;
         padding: 0 20% 0 0;
     }
@@ -473,23 +476,47 @@
     /* Sections CV / Grid -> Desktop */
 
     h2 {grid-area: a;}
-    .etudes, .experiences, .competences {
+    .competences {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 0 1.5rem;
+        grid-template-rows: auto 1fr;
+        grid-template-areas:
+            "a a a"
+            ". . ."
+            ". . ."
     }
+
+    /* Layout 1/3 + 2/3 pour etudes et experiences */
     .etudes, .experiences {
-        grid-template-rows: auto 1fr;
-        grid-template-areas:
-            "a a a"
-            ". . .";
+        display: flex;
+        flex-direction: column;
     }
-    .competences {
-        grid-template-rows: auto 1fr;
-        grid-template-areas:
-            "a a a"
-            ". . ."
-            ". . ."
+    .etudes article, .experiences article {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 0 2rem;
+        margin-bottom: 2.5vw;
+        align-items: start;
+    }
+    .etudes article .article-meta, .experiences article .article-meta {
+        grid-column: 1;
+    }
+    .etudes article .article-meta h3, .experiences article .article-meta h3 {
+        padding: 0;
+        margin: 0 0 .5vw 0;
+    }
+    .etudes article .article-meta h4, .experiences article .article-meta h4 {
+        padding: 0;
+        margin: 0 0 .5vw 0;
+    }
+    .etudes article .article-meta h4:last-child, .experiences article .article-meta h4:last-child {
+        margin: 0;
+    }
+    .etudes article > p, .experiences article > p {
+        grid-column: 2;
+        margin: 0;
+        padding: 0;
     }
 
 
@@ -507,10 +534,7 @@
         font-size: 1.5vw;
         margin: 0 0 .8vw;
     }
-    .etudes h4:nth-child(2), .experiences h4:nth-child(2) {
-        margin: 0;
-    }
-    .competences h4:last-child, .realisations h4:last-child, .projets-personnels h4 {
+    .competences h4:last-child, .realisations h4:last-child, .projets-personnels h4:last-child {
         margin: 0 0 3.2vw;
         padding: 0 20% 0 0;
     }
