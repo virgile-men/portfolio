@@ -539,7 +539,7 @@
         padding: 0 20% 0 0;
     }
     .etudes p, .experiences p, .comptences p, .realisations p, .projets-personnels p {
-        font-size: clamp(12px, .75vw, .80vw);
+        /* font-size: clamp(12px, .75vw, .80vw); */
         margin: 0 0 3.2vw;
         padding: 0 25% 0 0;
         line-height: 1.44vw;
