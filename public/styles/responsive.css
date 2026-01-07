@@ -49,10 +49,10 @@
         margin: 2.5rem -4vw 1rem;        
     }
     .portfolio .swiper-slide {
-        width: 92vw;
+        width: 90vw;
     }
     .portfolio .swiper-slide-prev, .swiper-slide-next {
-        transform: scale(0.96);
+        /* transform: scale(0.95); */
     }
     .portfolio .title-project {
         /* font-size: 7vw; */
@@ -169,7 +169,7 @@
         width: 90vw;
     }
     .swiper-slide-prev, .swiper-slide-next {
-        transform: scale(0.94);
+        /* transform: scale(0.95); */
     }
     .title-project {
         /* font-size: 5.5vw; */
@@ -284,10 +284,10 @@
         margin: 2.5rem -6vw 1rem;
     }
     .swiper-slide {
-        width: 88vw;
+        width: 86vw;
     }
     .swiper-slide-prev, .swiper-slide-next {
-        transform: scale(0.93);
+        /* transform: scale(0.95); */
     }
     .title-project {
         /* font-size: 3.8rem; */
