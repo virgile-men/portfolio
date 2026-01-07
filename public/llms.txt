@@ -1,0 +1,199 @@
+# Virgile Mendes - Profil Professionnel
+
+## Informations Personnelles
+
+**Nom complet:** Virgile Mendes
+**Localisation:** Montréal, QC, Canada
+**Email:** contact@virgile.men
+**Site web:** https://virgile.men
+**GitHub:** https://github.com/virgile-men
+**LinkedIn:** https://www.linkedin.com/in/virgile-men/
+
+## Titre Professionnel
+
+Candidat à la Profession d'Ingénieur (CPI), Baccalauréat en Génie Logiciel (B. Ing.)
+Ingénieur logiciel en recherche d'emploi et de superviseur à l'Ordre des Ingénieurs du Québec
+
+## Diplômes
+
+### Baccalauréat en Génie Logiciel
+- **Établissement:** École de Technologie Supérieure (ÉTS)
+- **Localisation:** Montréal, QC
+- **Année:** 2025
+- **Description:** Programme reconnu par Ingénieurs Canada donnant accès à l'Ordre des ingénieurs du Québec (OIQ). Formation aux postes de concepteur logiciel et responsable de développement.
+
+### Diplôme Universitaire de Technologie - Métiers du Multimédia et de l'Internet
+- **Établissement:** IUT Champs-sur-Marne, Université Gustave Eiffel
+- **Localisation:** France
+- **Année:** 2021
+- **Description:** Cursus sur les métiers du web, du développement back-end, à l'UX Design, en passant par le webmarketing ou la réalisation de produits audiovisuels. 1800 heures d'enseignement sur deux ans.
+
+## Certifications
+
+- **Candidat à la Profession d'Ingénieur** - Ordre des Ingénieurs du Québec (Depuis 2025)
+- **AI Agents Course** - Hugging Face (30 Juin 2025)
+  - Parcours complet sur les agents d'IA, maîtrise des librairies smolagents, LlamaIndex et LangGraph
+
+## Expériences Professionnelles
+
+### Auxiliaire d'enseignements
+**École de technologie supérieure (ÉTS)** | Montréal, QC | Juillet 2025 -- Décembre 2025
+
+- Gérer 3 séances de laboratoire hebdomadaires pour les cours LOG210, LOG240 et GTI611 auprès de 200+ étudiants
+- Accompagner 50+ équipes d'étudiants dans la réalisation de leurs travaux pratiques et projets
+- Assurer la résolution de conflits Git et encadrer le travail en équipe pour améliorer la collaboration
+- Évaluer 200+ rapports de laboratoire et 280+ soumissions de code par session en fournissant des retours constructifs
+- **Mandat spécial pour LOG240:** Migration vers une VM unique et adoption d'un GitLab auto-hébergé, substitution de Visual Paradigm par PlantUML, remplacement de TRAC par les outils intégrés à GitLab, intégration de pull requests avec modèles personnalisés, remplacement de UISpec4J par AssertJ Swing pour les tests end-to-end, mise à jour vers JUnit 5, ajout de githooks pour exécuter automatiquement les tests unitaires, et script simulant un pipeline CI/CD
+
+### Développeur full-stack
+**ISIOS** | À distance, QC | Janvier 2023 -- Juin 2025
+
+- Corriger et résoudre plus de 50 anomalies mensuelles de la plateforme en TypeScript, PHP et SQL
+- Développer et livrer 15+ fonctionnalités client selon les conditions d'acceptation et les normes de tests
+- Améliorer les performances d'exportation de rapports (PDF, Excel) de 40% en optimisant les requêtes SQL
+- Refactoriser plus de 10 000 lignes de code back-end PHP conformément aux standards ISIOS
+- Analyser les récits utilisateurs et implémenter 20+ tests end-to-end avec Playwright pour garantir la qualité
+- **Réalisations du stage de 2023:** Automatisation complète des tests end-to-end via GitLab CI/CD, intégration de l'outil Matomo pour le suivi de l'expérience utilisateur, création d'une interface front-end connectée par API pour visualiser en temps réel des données issues de sources tierces, conception d'un module d'intelligence d'affaire (BI) en PHP basé sur le modèle ETL
+- **Réalisations du stage de 2025:** Développement d'un agent AI à l'aide de LangGraph pour de l'extraction de données PDF propulsé par des LLM open-sources
+
+### Analyste-programmeur
+**Desjardins** | Montréal, QC | Mai 2022 -- Décembre 2022
+
+- Développer un logiciel ETL en C# .NET traitant 200+ enregistrements quotidiens et générant des rapports Excel comparant des données de 5+ sources externes
+- Préparer la documentation accompagnant chaque programme et destinée aux usagers
+- Faire de la programmation orientée objet et exécuter des stratégies de tests
+
+### Webmaster e-commerce
+**E-SMOKE** | Avril 2021 -- Juin 2021
+
+- Intégration complète d'un site e-commerce sous Prestashop pour un réseau de 10 boutiques
+- Automatisation de l'importation de plus de 1 000 produits via fichiers CSV pour la migration
+- Création d'un thème personnalisé en HTML/CSS via un thème et Creative Elements
+- Personnalisation dynamique des blocs via le constructeur visuel no-code et Javascript
+
+## Compétences Techniques
+
+### Langages de programmation
+JavaScript (ES6+), TypeScript, PHP, Python, Java, C#, SQL, HTML5, CSS3
+
+### Frameworks et bibliothèques
+React, Node.js, .NET, JUnit, Maven, Playwright, LangChain, LangGraph
+
+### Outils DevOps et CI/CD
+GitHub Actions, GitLab CI/CD, Docker, Kubernetes, Grafana
+
+### Bases de données
+MongoDB, PostgreSQL, SQL Server, MySQL, phpMyAdmin
+
+### Cloud et infrastructure
+Cloudflare, OVH, Oracle Cloud, Linux, Windows, MacOS
+
+### Méthodologies et pratiques
+Agile, Scrum, Kanban, TDD (Test-Driven Development), ETL, REST API, GraphQL, Git
+
+### Compétences fonctionnelles
+Architecture logicielle, Conception d'interfaces utilisateur, Intégration continue & livraison continue, Documentation technique (normes APA), Outils collaboratifs (Confluence, Gantt), Référencement technique (SEO)
+
+### Plateformes et CMS
+WordPress, Prestashop, Elementor, Divi, WooCommerce
+
+## Projets Académiques
+
+### Vue d'ensemble avec la sécurité des réseaux d'entreprise
+**GTI719, ÉTS** | Mai 2025 -- Août 2025 | Montréal, QC
+- Analyse de risque et processus d'audit selon Octave® Allegro
+- Familiariser avec les fédérations d'identités (délégation d'authentification IdP, OAuth)
+- Déploiement sécurisé de conteneurs Docker grâce à un orchestrateur Kubernetes
+
+### Développement d'une application complexe de gestion de données
+**LOG660, ÉTS** | Janvier 2025 -- Avril 2025 | Montréal, QC
+- Analyse des besoins, conception du schéma relationnel, modélisation des règles d'affaires et insertion des données
+- Développement d'une interface programme-BD à l'aide d'un framework de persistance transparente
+- Optimisation de requêtes et analyse de la performance
+
+### Conception et programmation d'un laboratoire de DevOps
+**LOG680, ÉTS** | Septembre 2024 -- Décembre 2024 | Montréal, QC
+- Automatisation de tests unitaire à travers des pre-commit
+- Automatisation de tests d'intégration à travers un pipeline Github Action
+- Déploiement continu d'une image Docker jusqu'à son déploiement dans un cluster Kubernetes
+- Monitoring et visualisation de métriques à travers une instance Grafana
+
+### Amélioration d'une architecture de microservices
+**LOG430, ÉTS** | Septembre 2024 -- Décembre 2024 | Montréal, QC
+- Intégration de microservices Docker pour comparer les trajets en autobus et voiture à l'aide de données GTFS et de l'API TomTom
+- Mise en place de tactiques de redondance active et passive pour assurer la haute disponibilité des services
+- Résilience du système aux défaillances via injection de fautes avec Chaos Monkey (pods computation, connecteurs, volumes Docker)
+- Réplication des files de messages RabbitMQ avec quorum queues et reconnections automatiques avec ServiceMeshHelper
+- Analyse de performance (throughput, stabilité, erreurs, temps de rétablissement)
+
+### Autres projets académiques notables
+- Sécurité des logiciels (LOG460) - Analyse et débogage d'exécutables, exploitation de vulnérabilités, tests de sécurité
+- Gestion de projets et assurance de la qualité (GTI510) - Méthodologies de gestion de projets en TI
+- Technologies de développement Internet (GTI525) - Applications Web dynamiques
+- Principes et fondements de l'Internet des objets (GTI700) - Configuration Raspberry Pi, protocoles IoT
+- Bases de données de haute performance (LOG660) - Conception et développement d'applications de gestion de données
+- Architecture logicielle (LOG430) - Refonte d'architecture de microservices
+- Analyse et conception de logiciels (LOG210) - Méthodologies d'analyse et conception orientées objet, modélisation UML
+- Tests et maintenance (LOG240) - Conception et exécution de tests logiciels, automatisation
+
+## Projets Personnels
+
+### Hébergement de services
+**Raspberry Pi & Cloudflare** | Février 2024 -- Aujourd'hui
+- Automatisation de workflow à travers n8n
+- Migration de données Cloud sur Nextcloud
+- Création de logiciels répondant à des problématiques avec des API de LLM (OpenAI, Gemini, etc)
+- Gestion de l'ensemble des projets à travers de la containerisation Docker
+
+### Hackathon Mobile Challenge
+**ApplETS** | Janvier 2024 | Montréal, QC
+- Conception d'une application mobile en 24h : Villes intelligentes pour un avenir durable
+- Prototypage d'UrbanEco, une application récompensant les comportements écoresponsables
+- Apprentissage accéléré de Flutter dans un temps limité
+- Gestion et travail collaboratif sous pression
+
+### Portfolio Web
+**Projet personnel** | En ligne sur https://virgile.men
+- Site portfolio développé avec Astro et TypeScript
+- Présentation de projets créatifs en développement web et design numérique
+- Projets présentés: Portrait-chinois, Flowwi, Netflix UX, Finance pour tous, Nike Paris On Air, MMi'SLAND
+
+## Bénévolat et Comité
+
+### Comité institutionnel sur la santé mentale étudiante
+**École de Technologie Supérieure** | Septembre 2024 -- Juin 2025 | Montréal, QC
+
+### Accueillir, alphabétiser, Apprendre le français
+**Lycée Saint Jean Baptiste de la Salle** | Septembre 2018 -- Mai 2019 | France
+
+## Langues
+
+- **Français:** Natif
+- **Portugais:** Natif (oral)
+- **Anglais:** Fonctionnel
+
+## Réalisations Notables
+
+- Refactorisation de plus de 10 000 lignes de code back-end PHP
+- Amélioration des performances d'exportation de rapports de 40%
+- Développement d'un agent AI avec LangGraph pour extraction de données PDF
+- Migration et modernisation complète des laboratoires LOG240
+- Automatisation complète des tests end-to-end via GitLab CI/CD
+- Conception d'un module d'intelligence d'affaire (BI) en PHP basé sur le modèle ETL
+- Gestion de 3 séances de laboratoire hebdomadaires pour 200+ étudiants
+- Accompagnement de 50+ équipes d'étudiants dans leurs projets
+
+## Technologies du Portfolio
+
+- **Framework:** Astro
+- **Langage:** TypeScript
+- **Déploiement:** Cloudflare Pages
+- **Versioning:** Git/GitHub
+
+## Liens et Ressources
+
+- **Portfolio:** https://virgile.men
+- **GitHub:** https://github.com/virgile-men
+- **LinkedIn:** https://www.linkedin.com/in/virgile-men/
+- **Email:** contact@virgile.men
+- **CV PDF:** https://virgile.men/docs/MENDES_Virgile_CV.pdf
