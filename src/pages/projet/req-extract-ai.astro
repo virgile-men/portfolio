@@ -1,0 +1,58 @@
+---
+import ProjectLayout from '../../layouts/ProjectLayout.astro';
+import TechIcon from '../../components/TechIcon.astro';
+import ExternalLink from '../../components/ExternalLink.astro';
+
+const title = "REQ Extract AI - Virgile Mendes";
+const description = "REQ Extract AI est un pipeline semi-automatisé d'extraction d'exigences de normes avioniques (ARINC-653, DO-178C) à l'aide de Large Language Models. Projet de fin d'études réalisé en équipe où j'ai été chef de projet et responsable de l'infrastructure. Découvrez toutes les étapes de mon travail !";
+---
+
+<ProjectLayout title={title} description={description}>
+    <Fragment slot="medias">
+        <video preload="none" class="media-actived" id="introMedia" loop muted autoplay>
+            <source src="/videos/reqextractai-intro.mp4" type="video/mp4">
+            <source src="/videos/reqextractai-intro.webm" type="video/webm">
+            Désolé, votre navigateur ne prend pas en charge les vidéos intégrées.
+        </video>
+        <img alt="Illustration du challenge projet" id="challengeMedia" src="/images/reqextractai-challenge.webp">
+        <img alt="Illustration du processus du projet" id="processusMedia" src="/images/reqextractai-processus.webp">
+        <img alt="Illustration des résultats du projet" id="resultatsMedia" src="/images/reqextractai-resultats.webp">
+    </Fragment>
+
+    <section id="intro">
+        <h1>REQ Extract AI</h1>
+        <div class="techno">
+            <TechIcon name="typescript" />
+            <TechIcon name="javascript" />
+        </div>
+        <video preload="none" loop muted controls playsinline poster="/videos/reqextractai-intro.webp">
+            <source src="/videos/reqextractai-intro.mp4" type="video/mp4">
+            <source src="/videos/reqextractai-intro.webm" type="video/webm">
+            Désolé, votre navigateur ne prend pas en charge les vidéos intégrées.
+        </video>
+        <p>REQ Extract AI est un <strong>pipeline semi-automatisé d'extraction d'exigences</strong> de normes avioniques (ARINC-653, DO-178C) à l'aide de Large Language Models. Ce projet de fin d'études a été réalisé dans le cadre de mon projet de fin d'études à l'École de Technologie Supérieure. Au sein de ce projet, j'ai été <strong>chef d'équipe</strong> et <strong>responsable de l'infrastructure</strong>, en charge du déploiement, de l'orchestration des services et de l'intégration des modèles de langage. J'ai partagé ce projet avec <a target="_blank" href="https://www.linkedin.com/in/amara-madi-ramzi/">Amara Madi Ramzi<ExternalLink /></a>, <a target="_blank" href="https://www.linkedin.com/in/mohamed-rayan-laras/">Mohamed Rayan Laras<ExternalLink /></a>, <a target="_blank" href="https://www.linkedin.com/in/albert-bryan-ndjeutcha/">Albert Bryan Ndjeutcha<ExternalLink /></a> et <a target="_blank" href="https://www.linkedin.com/in/melvin-siadous/">Melvin Siadous<ExternalLink /></a>.</p>
+    </section>
+
+    <section id="challenge">
+        <h2>Challenge</h2>
+        <img alt="Illustration du challenge projet" src="/images/reqextractai-challenge.webp">
+        <p>Les documents avioniques présentent de nombreux défis qui rendent difficile leur exploitation automatique : <strong>hétérogénéité du format</strong> (texte, tableaux, figures, notes), <strong>exigences implicites</strong> cachées dans les descriptions, <strong>références croisées</strong> fréquentes entre sections, et <strong>fragmentation du contenu</strong> sur plusieurs pages. L'objectif était de concevoir un pipeline robuste capable d'intégrer du nettoyage documentaire, de l'OCR avancé, un découpage par blocs logiques, et un modèle de langage capable de déduire à la fois les exigences explicites et implicites. Il fallait transformer ces normes complexes en <strong>exigences structurées et exploitables</strong>, tout en conservant une fiabilité compatible avec les contraintes d'ingénierie critique.</p>
+    </section>
+
+    <section id="processus">
+        <h2>Processus</h2>
+        <img alt="Illustration du processus du projet" src="/images/reqextractai-processus.webp">
+        <p>En tant que <strong>chef d'équipe</strong>, j'ai mis en place une méthodologie agile avec des sprints de deux semaines, un tableau Kanban sur GitHub pour la gestion des tâches, et une communication structurée via Discord, Slack et Zoom. Les rencontres bihebdomadaires avec le client permettaient d'avoir des retours directs et d'ajuster continuellement la feuille de route. Pour l'<strong>infrastructure</strong>, j'ai déployé l'application sur une machine virtuelle fournie par l'ÉTS. L'architecture conteneurisée avec Docker Compose regroupait le backend FastAPI, le frontend Next.js, PostgreSQL, Ollama pour l'inférence LLM de modèles localement hébergés, et ChromaDB pour la recherche vectorielle. J'ai choisi <strong>Dokploy</strong> pour le déploiement continu, permettant un déploiement automatique à chaque push sur la branche main avec monitoring via Discord. J'ai également configuré <strong>Uptime Kuma</strong> pour surveiller la disponibilité de la VM et notifier l'équipe en cas d'incident. Cette infrastructure m'a permis de gérer efficacement les contraintes budgétaires tout en validant la faisabilité conceptuelle du pipeline.</p>
+    </section>
+
+    <section id="resultats">
+        <h2>Résultats</h2>
+        <img alt="Illustration des résultats du projet" src="/images/reqextractai-resultats.webp">
+        <p>Le projet a permis de développer un <strong>pipeline fonctionnel complet</strong> : ingestion de PDF, nettoyage, segmentation, extraction via LLM et interface web interactive. Chaque exigence extraite est structurée avec un identifiant, une section source, un type d'exigence, et des champs condition/action/objet. L'outil peut constituer un support utile pour un public débutant en mettant en évidence des phrases candidates et en proposant une structuration initiale. Ce projet m'a énormément appris sur la <strong>gestion d'équipe</strong>, la <strong>communication structurée</strong> et surtout sur l'<strong>infrastructure DevOps</strong> : déploiement continu, monitoring, orchestration de conteneurs, et intégration de modèles de langage. J'ai également approfondi ma compréhension des enjeux techniques associés aux LLM dans un contexte certifiable, explorant des technologies comme ChromaDB, RAG, et l'auto-hébergement de modèles. Malgré les contraintes matérielles et budgétaires, nous avons réussi à concevoir une architecture complète et fonctionnelle qui démontre la faisabilité de l'approche.</p>
+    </section>
+
+    <section id="outro">
+        <p class="thank">Remerciements à <a href="https://www.linkedin.com/in/ghizlane-el-boussaidi-4171a94/" target="_blank">Ghizlane El Boussaidi<ExternalLink /></a> et <a href="https://www.linkedin.com/in/ikram-darif-phd-729422180/" target="_blank">Ikram Darif<ExternalLink /></a>.</p>
+        <h2 class="redirect-project"><a href="mailto:contact@virgile.men" target="_blank">Discuter du projet avec moi<ExternalLink /></a></h2>
+    </section>
+</ProjectLayout>
