@@ -58,6 +58,10 @@
         font-size: 7.56vw;
         margin: 7%;
     }
+    .portfolio .year {
+        font-size: 4vw;
+        padding: 3%;
+    }
 
 
 
@@ -172,6 +176,10 @@
         /* font-size: 5.5vw; */
         font-size: 5.94vw;
         margin: 5%;
+    }
+    .portfolio .year {
+        font-size: 3vw;
+        padding: 2.5%;
     }
 
 
@@ -290,6 +298,10 @@
         /* font-size: 3.8rem; */
         font-size: 4.1rem;
         margin: 5%;
+    }
+    .portfolio .year {
+        font-size: 1.5rem;
+        padding: 2%;
     }
 
 
@@ -460,6 +472,10 @@
     
     /* Index / Swider.js */
     .portfolio {display: none;}
+    .portfolio .year {
+        font-size: 1.2vw;
+        padding: 1.2vw;
+    }
 
 
 

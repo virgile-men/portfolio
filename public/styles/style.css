@@ -180,6 +180,7 @@ li sup {
 .portfolio .swiper-slide a {
     width: 100%;
     height: 100%;
+    position: relative;
 }
 .portfolio .swiper-slide img, .portfolio .swiper-slide video {
     width: 100%;
@@ -196,6 +197,15 @@ li sup {
 
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: thin #ffffff;
+}
+.portfolio .year {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 300;
+    color: var(--color-font);
+    padding: 1rem;
+    font-size: 1.2rem;
 }
 .filter-invert {
     -webkit-filter: invert(100%);

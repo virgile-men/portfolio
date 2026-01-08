@@ -52,6 +52,7 @@ const projects = [
                     <a href={`/projet/${project.slug}/`}>
                         <img alt={`Image de présentation de ${project.name}`} src={`/videos/${project.video}.webp`}>
                         <h3 class={`title-project ${project.filterInvert ? 'filter-invert' : ''}`}>{project.name}</h3>
+                        <span class={`${project.filterInvert ? 'filter-invert' : ''} year`}>{project.year}</span>
                     </a>
                 </div>
             ))}
