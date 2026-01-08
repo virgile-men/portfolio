@@ -8,12 +8,12 @@ const title = "Virgile Mendes, B. Ing.";
 const description = "Découvrez une sélection de mes projets créatif en développement web et design numérique ainsi que mon parcous, mes compétences et mes expériences";
 
 const projects = [
-    { slug: 'portrait-chinois', name: 'Portrait-chinois', video: 'portraitchinois-intro' },
-    { slug: 'flowwi', name: 'Flowwi', video: 'flowwi-intro' },
-    { slug: 'netflix-ux', name: 'Netflix UX', video: 'netflixux-intro' },
-    { slug: 'finance-pour-tous', name: 'Finance pour tous', video: 'financepourtous-intro', filterInvert: true },
-    { slug: 'nike-paris-on-air', name: 'Nike Paris On Air', video: 'nikeonair-intro', filterInvert: true },
-    { slug: 'mmi-sland', name: "MMi'SLAND", video: 'mmisland-intro-resultats' },
+    { slug: 'portrait-chinois', name: 'Portrait-chinois', video: 'portraitchinois-intro', year: 2020 },
+    { slug: 'flowwi', name: 'Flowwi', video: 'flowwi-intro', year: 2020 },
+    { slug: 'netflix-ux', name: 'Netflix UX', video: 'netflixux-intro', year: 2020 },
+    { slug: 'finance-pour-tous', name: 'Finance pour tous', video: 'financepourtous-intro', filterInvert: true, year: 2020 },
+    { slug: 'nike-paris-on-air', name: 'Nike Paris On Air', video: 'nikeonair-intro', filterInvert: true, year: 2018 },
+    { slug: 'mmi-sland', name: "MMi'SLAND", video: 'mmisland-intro-resultats', year: 2021 },
 ];
 ---
 
@@ -38,7 +38,7 @@ const projects = [
             <h2>Sélection de projets</h2>
             <ul>
                 {projects.map((project) => (
-                    <li><a href={`/projet/${project.slug}/`} data-project={project.slug}>{project.name}</a></li>
+                    <li><a href={`/projet/${project.slug}/`} data-project={project.slug}>{project.name}</a><sup>{project.year}</sup></li>
                 ))}
             </ul>
         </section>

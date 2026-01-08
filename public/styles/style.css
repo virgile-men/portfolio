@@ -135,6 +135,13 @@ li a:hover {
     transition: .4s;
 }
 
+li sup {
+    font-weight: 300;
+    font-size: 22px;
+    padding-left: 8px;
+    vertical-align: top;
+    color: #666666;
+}
 
 
 

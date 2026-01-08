@@ -398,9 +398,9 @@
     /* Affichage desktop */
     .display-desktop-portfolio {
         display: grid;
-        grid-template-columns: 1fr 45%;
+        grid-template-columns: 1fr 47%;
         grid-template-rows: 1fr 10%;
-        gap: 0px 5%;
+        gap: 0px 3%;
         grid-template-areas:
             "a c"
             "b c";
@@ -587,9 +587,9 @@
 
     .display-projet {
         display: grid;
-        grid-template-columns: 50% 45%;
+        grid-template-columns: 50% 47%;
         grid-template-rows: auto;
-        gap: 0px 5%;
+        gap: 0px 3%;
         grid-template-areas:
             ". .";
     
