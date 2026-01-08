@@ -83,6 +83,12 @@
         font-size: 5vw;
         margin: 0 0 2.4vw;
     }
+    article h5 {
+        font-size: 4.2vw;
+        margin: 0 0 1.2vw;
+        padding: 0 25% 0 0;
+        opacity: 0.85;
+    }
     .competences h4:last-child, .realisations h4:last-child, .projets-personnels h4:last-child {
         margin: 0 0 9.6vw;
         padding: 0 20% 0 0;
@@ -201,6 +207,12 @@
     article h4 {
         font-size: 2.2rem;
         margin: 0 0 .5rem;
+    }
+    article h5 {
+        font-size: 1.8rem;
+        margin: 0 0 .3rem;
+        padding: 0 25% 0 0;
+        opacity: 0.85;
     }
     .competences h4:last-child, .realisations h4:last-child, .projets-personnels h4:last-child {
         margin: 0 0 1.8rem;
@@ -323,6 +335,12 @@
     article h4 {
         font-size: 2.5rem;
         margin: 0 0 .5rem;
+    }
+    article h5 {
+        font-size: 2rem;
+        margin: 0 0 .3rem;
+        padding: 0 25% 0 0;
+        opacity: 0.85;
     }
     .competences h4:last-child, .realisations h4:last-child, .projets-personnels h4:last-child {
         margin: 0 0 1.8rem;
@@ -546,6 +564,12 @@
     article h4 {
         font-size: 1.5vw;
         margin: 0 0 .8vw;
+    }
+    article h5 {
+        font-size: 1.25vw;
+        margin: 0 0 .4vw;
+        padding: 0 25% 0 0;
+        opacity: 0.85;
     }
     .competences h4:last-child, .realisations h4:last-child, .projets-personnels h4:last-child {
         margin: 0 0 3.2vw;
