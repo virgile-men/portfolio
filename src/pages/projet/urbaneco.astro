@@ -1,0 +1,64 @@
+---
+import ProjectLayout from '../../layouts/ProjectLayout.astro';
+import TechIcon from '../../components/TechIcon.astro';
+import ExternalLink from '../../components/ExternalLink.astro';
+
+const title = "UrbanEco - Virgile Mendes";
+const description = "Conception d'une application mobile en 24h lors du hackathon AMC 2024 : Villes intelligentes pour un avenir durable. Prototypage d'UrbanEco, une application récompensant les comportements écoresponsables. Découvrez toutes les étapes de mon travail !";
+---
+
+<ProjectLayout title={title} description={description}>
+    <Fragment slot="medias">
+        <video preload="none" class="media-actived" id="introMedia" loop muted autoplay>
+            <source src="/videos/urbaneco-intro.mp4" type="video/mp4">
+            <source src="/videos/urbaneco-intro.webm" type="video/webm">
+            Désolé, votre navigateur ne prend pas en charge les vidéos intégrées.
+        </video>
+        <img alt="Illustration du challenge projet" id="challengeMedia" src="/images/urbaneco-challenge.webp">
+        <img alt="Illustration du processus du projet" id="processusMedia" src="/images/urbaneco-processus.webp">
+        <video preload="none" id="resultatsMedia" loop muted autoplay>
+            <source src="/videos/urbaneco-resultats.mp4" type="video/mp4">
+            <source src="/videos/urbaneco-resultats.webm" type="video/webm">
+            Désolé, votre navigateur ne prend pas en charge les vidéos intégrées.
+        </video>
+    </Fragment>
+
+    <section id="intro">
+        <h1>UrbanEco</h1>
+        <div class="techno">
+        </div>
+        <video preload="none" loop muted controls playsinline poster="/videos/urbaneco-intro.webp">
+            <source src="/videos/urbaneco-intro.mp4" type="video/mp4">
+            <source src="/videos/urbaneco-intro.webm" type="video/webm">
+            Désolé, votre navigateur ne prend pas en charge les vidéos intégrées.
+        </video>
+        <p>Lors du hackathon AMC 2024 organisé par AppETS à l'ÉTS, j'ai participé à la <strong>compétition d'applications mobiles</strong> sur le thème "Villes intelligentes pour un avenir durable". En équipe, nous avons conçu et prototypé <strong>UrbanEco</strong>, une application mobile récompensant les comportements écoresponsables des citoyens. Au sein de ce projet, j'ai été <strong>développeur</strong> Flutter et j'ai partagé ce projet avec mes coéquipiers : <a target="_blank" href="https://www.linkedin.com/in/juliencastor/">Julien Castor<ExternalLink /></a>, <a target="_blank" href="https://www.linkedin.com/in/mehdi-monerie/">Mehdi Monerie<ExternalLink /></a>, <a target="_blank" href="https://www.linkedin.com/in/ilyes-essid/">Ilyes Essid<ExternalLink /></a>&nbsp;et&nbsp;<a target="_blank" href="https://www.linkedin.com/in/louqman-masbahi/">Louqman Masbahi<ExternalLink /></a>.</p>
+    </section>
+
+    <section id="challenge">
+        <h2>Challenge</h2>
+        <img alt="Illustration du challenge projet" src="/images/urbaneco-challenge.webp">
+        <p>Le défi était de créer une application mobile en <strong>24 heures</strong> répondant au thème des villes intelligentes et durables. L'idée d'UrbanEco était de <strong>gamifier les actions écologiques</strong> en permettant aux utilisateurs d'accumuler des points grâce à leurs gestes responsables : compostage, réduction de consommation d'eau et d'électricité, utilisation de transports durables. Le <strong>défi partenaire Intact</strong> consistait à implémenter un système de notifications push lorsqu'un utilisateur créait un signalement, ajoutant une dimension de communication en temps réel à l'application.</p>
+    </section>
+
+    <section id="processus">
+        <h2>Processus</h2>
+        <img alt="Illustration du processus du projet" src="/images/urbaneco-processus.webp">
+        <p>Ce hackathon a été mon <strong>premier contact avec Flutter</strong> et FlutterFlow. J'ai dû apprendre rapidement les concepts fondamentaux du framework dans un temps très limité. L'utilisation de <strong>FlutterFlow</strong> nous a permis de prototyper rapidement l'interface utilisateur avec ses fonctionnalités principales : écran d'accueil avec code QR pour accumuler des points, page "Mon quartier" affichant les statistiques collectives, profil utilisateur avec l'impact écologique, et classements pour stimuler l'engagement. La <strong>gestion du temps et le travail collaboratif sous pression</strong> ont été des défis constants, nécessitant une organisation rigoureuse et une communication efficace entre les membres de l'équipe.</p>
+    </section>
+
+    <section id="resultats">
+        <h2>Résultats</h2>
+        <video preload="none" loop muted controls playsinline poster="/videos/urbaneco-resultats.webp">
+            <source src="/videos/urbaneco-resultats.mp4" type="video/mp4">
+            <source src="/videos/urbaneco-resultats.webm" type="video/webm">
+            Désolé, votre navigateur ne prend pas en charge les vidéos intégrées.
+        </video>
+        <p>Ce projet m'a permis de découvrir <strong>Flutter dans un contexte d'apprentissage accéléré</strong>. Malgré le temps limité, nous avons réussi à créer un prototype fonctionnel présentant les concepts clés de l'application : système de points, visualisation des données de quartier, et intégration des notifications pour le défi Intact. Cette expérience m'a appris à <strong>prioriser les fonctionnalités essentielles</strong> et à travailler efficacement en équipe dans un environnement de développement intensif. Le hackathon a été une excellente opportunité de mettre en pratique mes compétences de développement tout en découvrant de nouvelles technologies.</p>
+    </section>
+
+    <section id="outro">
+        <p class="thank">Remerciements à <a target="_blank" href="https://clubapplets.ca/">ApplETS<ExternalLink /></a> et de manière plus générale aux organisateurs du <a target="_blank" href="https://amc.clubapplets.ca/">hackathon AMC 2024<ExternalLink /></a>.</p>
+        <h2 class="redirect-project"><a href="mailto:contact@virgile.men" target="_blank">Discuter du projet<ExternalLink /></a></h2>
+    </section>
+</ProjectLayout>
