@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const title = "Page introuvable - Virgile Mendes";
+const description = "La page demandée est introuvable. Retournez au portfolio de Virgile Mendes.";
+---
+
+<BaseLayout title={title} description={description}>
+    <Header />
+
+    <main class="not-found">
+        <section>
+            <h1>404</h1>
+            <h2>Page introuvable</h2>
+            <p>Désolé, la page que vous cherchez n'existe pas ou a été déplacée.</p>
+            <a href="/">Retour à l'accueil</a>
+        </section>
+    </main>
+
+    <Footer />
+</BaseLayout>
