@@ -8,13 +8,13 @@ const title = "Virgile Mendes, B. Ing.";
 const description = "Découvrez une sélection de mes projets créatif en développement web et design numérique ainsi que mon parcous, mes compétences et mes expériences";
 
 const projects = [
-    { slug: 'req-extract-ai', name: 'REQ Extract AI', video: 'reqextractai-intro', year: 2025 },
-    { slug: 'urbaneco', name: 'UrbanEco', video: 'urbaneco-intro', year: 2024 },
-    { slug: 'portrait-chinois', name: 'Portrait-chinois', video: 'portraitchinois-intro', year: 2020 },
-    { slug: 'flowwi', name: 'Flowwi', video: 'flowwi-intro', year: 2020 },
-    { slug: 'netflix-ux', name: 'Netflix UX', video: 'netflixux-intro', year: 2020 },
-    { slug: 'finance-pour-tous', name: 'Finance pour tous', video: 'financepourtous-intro', filterInvert: true, year: 2020 },
-    { slug: 'nike-paris-on-air', name: 'Nike Paris On Air', video: 'nikeonair-intro', filterInvert: true, year: 2018 },
+    { slug: 'req-extract-ai', name: 'REQ Extract AI', video: 'reqextractai-intro', image: 'reqextractai-intro', year: 2025 },
+    { slug: 'urbaneco', name: 'UrbanEco', video: 'urbaneco-processus', image: 'urbaneco-intro', year: 2024 },
+    { slug: 'portrait-chinois', name: 'Portrait-chinois', video: 'portraitchinois-intro', image: 'portraitchinois-intro', year: 2020 },
+    { slug: 'flowwi', name: 'Flowwi', video: 'flowwi-intro', image: 'flowwi-intro', year: 2020 },
+    { slug: 'netflix-ux', name: 'Netflix UX', video: 'netflixux-intro', image: 'netflixux-intro', year: 2020 },
+    { slug: 'finance-pour-tous', name: 'Finance pour tous', video: 'financepourtous-intro', image: 'financepourtous-intro', filterInvert: true, year: 2020 },
+    { slug: 'nike-paris-on-air', name: 'Nike Paris On Air', video: 'nikeonair-intro', image: 'nikeonair-intro', filterInvert: true, year: 2018 },
 ];
 ---
 
@@ -51,7 +51,7 @@ const projects = [
             {projects.map((project) => (
                 <div class="swiper-slide">
                     <a href={`/projet/${project.slug}/`}>
-                        <img alt={`Image de présentation de ${project.name}`} src={`/videos/${project.video}.webp`}>
+                        <img alt={`Image de présentation de ${project.name}`} src={`/videos/${project.image}.webp`}>
                         <h3 class={`title-project ${project.filterInvert ? 'filter-invert' : ''}`}>{project.name}</h3>
                         <span class={`${project.filterInvert ? 'filter-invert' : ''} year`}>{project.year}</span>
                     </a>
