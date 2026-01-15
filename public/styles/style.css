@@ -121,6 +121,10 @@ footer a {
     .svg-behance > .st1, .svg-linkedin > .st1 {
         fill: var(--color-background) !important;
     }
+    .tech-icon-ollama svg,
+    .tech-icon-nextjs svg {
+        filter: invert(1);
+    }
 }
 
 
@@ -283,6 +287,20 @@ article p {
 }
 .techno svg {
     height: 100%;
+    width: auto;
+    display: block;
+}
+.tech-icon {
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+    vertical-align: middle;
+}
+.tech-icon-flutter svg {
+    height: 100%;
+}
+.tech-icon-flutterflow svg {
+    height: 75%;
 }
 .article-project h2, .redirect-project {
     font-family: 'Inter', sans-serif;
