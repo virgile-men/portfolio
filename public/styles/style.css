@@ -243,6 +243,9 @@ article p {
         -ms-hyphens: auto;
             hyphens: auto;
 }
+.etudes article:not(:last-child), .experiences article:not(:last-child) {
+    border-bottom: 1px solid #666666;
+}
 .projets h2 {
     display: none;
 }

@@ -527,7 +527,8 @@
         display: grid;
         grid-template-columns: 1fr 2fr;
         gap: 0 2rem;
-        margin-bottom: 2.5vw;
+        padding-bottom: 1.25vw;
+        margin-bottom: 1.25vw;
         align-items: start;
     }
     .etudes article .article-meta, .experiences article .article-meta {
