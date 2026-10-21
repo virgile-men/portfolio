@@ -94,6 +94,14 @@ const projects = [
         <h2>Expériences</h2>
         <article>
             <div class="article-meta">
+                <h3>Architecte logiciel<br>DevOps, AI Inference and Agentic</h3>
+                <h4>CN ID, Data Enablement</h4>
+                <h4>Depuis avril 2026</h4>
+            </div>
+            <p>Mise en place de zéro de la CI/CD GitHub Actions d'une plateforme d'ingestion de documents financiers sur Snowflake : 14 workflows, environnements DEV, PREVIEW et PROD, et plus de 100 déploiements en 10 semaines. Déploiement des services conteneurisés sur Snowpark Container Services avec une image unique par environnement, double approbation en production et tests de fumée post-déploiement. Consolidation de 11 workflows de déploiement en 4 et correction des dérives entre environnements. Livraison d'une application desktop Electron/TypeScript déployée sur les postes via PDQ, avec mise à jour automatique sur 3 canaux. Stratégie de plus de 2 000 tests automatisés (intégration, Snowflake, UI, end-to-end) et suspension automatique des services inactifs pour réduire les coûts de calcul.<br><br>IA et automatisation : conception d'un système multi-agent de correction de bugs piloté par Claude Code (triage, implémentation, revue, vérification), encadré par des checks CI obligatoires et 330 tests, et d'une revue de code IA exigée avant chaque fusion.</p>
+        </article>
+        <article>
+            <div class="article-meta">
                 <h3>Auxiliaire d'enseignements</h3>
                 <h4>LOG210, LOG240, GTI611</h4>
                 <h4>École de technologie supérieure (ÉTS)</h4>
@@ -136,7 +144,7 @@ const projects = [
 
         <article>
             <h3>Frameworks / Librairies</h3>
-            <h4>React, Next.js, Node.js, FastAPI, Flutter, FlutterFlow, .NET, JUnit, Maven, Playwright, LangChain, LangGraph, LlamaIndex, smolagents, jQuery</h4>
+            <h4>React, Next.js, Node.js, FastAPI, Flask, Electron, Flutter, FlutterFlow, .NET, JUnit, Maven, Playwright, LangChain, LangGraph, LlamaIndex, smolagents, jQuery</h4>
         </article>
 
         <article>
@@ -146,17 +154,17 @@ const projects = [
 
         <article>
             <h3>DevOps & CI/CD</h3>
-            <h4>GitHub Actions, GitLab CI/CD, Docker, Docker Compose, Kubernetes, Dokploy, Uptime Kuma, CI/CD Pipelines, Grafana</h4>
+            <h4>GitHub Actions, GitLab CI/CD, Docker, Docker Compose, Kubernetes, Snowpark Container Services, Dependabot, Dokploy, Uptime Kuma, CI/CD Pipelines, Grafana</h4>
         </article>
 
         <article>
             <h3>Bases de données</h3>
-            <h4>MongoDB, PostgreSQL, MySQL, SQL Server, phpMyAdmin, ChromaDB</h4>
+            <h4>Snowflake, MongoDB, PostgreSQL, MySQL, SQL Server, phpMyAdmin, ChromaDB</h4>
         </article>
 
         <article>
             <h3>Infrastructure & Cloud</h3>
-            <h4>Cloudflare, OVH, Oracle, Raspberry Pi, Nextcloud, MacOS, Windows, Ubuntu</h4>
+            <h4>Proxmox VE, LXC, KVM, Tailscale, Cloudflare, OVH, Oracle, Raspberry Pi, Nextcloud, MacOS, Windows, Ubuntu</h4>
         </article>
 
         <article>
@@ -176,12 +184,12 @@ const projects = [
 
         <article>
             <h3>IA & Data</h3>
-            <h4>LLM, RAG, OCR, ChromaDB, Ollama, Extraction d'exigences</h4>
+            <h4>Claude Code, systèmes multi-agents, MCP, Snowflake Cortex, LLM, RAG, OCR, ChromaDB, Ollama, Extraction d'exigences</h4>
         </article>
 
         <article>
             <h3>Outils & collaboration</h3>
-            <h4>GitHub, GitLab, Discord, Slack, Zoom, Google Sheets, Matomo</h4>
+            <h4>GitHub, GitLab, Jira, Confluence, Discord, Slack, Zoom, Google Sheets, Matomo</h4>
         </article>
 
         <article>
@@ -195,9 +203,9 @@ const projects = [
     <section class="projets-personnels">
         <h2>Projets personnels</h2>
         <article>
-            <h3>Hébergement de services</h3>
-            <h4>Raspberry Pi & Cloudflare</h4>
-            <p>Automatisation de workflows à travers n8n, migration de données Cloud sur Nextcloud, création de logiciels répondant à des problématiques avec des API de LLM (OpenAI, Gemini, etc.), gestion de l'ensemble des projets via Docker et Docker Compose, et mise en place de monitoring léger.</p>
+            <h3>Homelab</h3>
+            <h4>Proxmox VE, Tailscale & Cloudflare</h4>
+            <p>Exploitation de 2 serveurs Proxmox VE (conteneurs LXC et VM KVM), après des débuts sur Raspberry Pi, avec sauvegardes nocturnes via Proxmox Backup Server, accès privé via Tailscale et exposition publique via Cloudflare Tunnel. Hébergement de services conteneurisés avec Docker (API de transcription Whisper compatible OpenAI, workflows n8n, Nextcloud, Home Assistant) et provisionnement de sandboxes LXC éphémères aux ressources plafonnées pour exécuter des agents IA de code isolés, avec résultats rapatriés en branche Git.</p>
         </article>
         <article>
             <h3>Hackathon Mobile Challenge</h3>

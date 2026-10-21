@@ -12,7 +12,7 @@
 ## Titre Professionnel
 
 Candidat admissible à la Profession d'Ingénieur (CPI), Baccalauréat en Génie Logiciel (B. Ing.)
-Ingénieur logiciel en recherche d'emploi et de superviseur à l'Ordre des Ingénieurs du Québec
+Architecte logiciel (DevOps, AI Inference and Agentic) chez CN ID, en recherche de superviseur à l'Ordre des Ingénieurs du Québec
 
 ## Diplômes
 
@@ -35,6 +35,16 @@ Ingénieur logiciel en recherche d'emploi et de superviseur à l'Ordre des Ingé
   - Parcours complet sur les agents d'IA, maîtrise des librairies smolagents, LlamaIndex et LangGraph
 
 ## Expériences Professionnelles
+
+### Architecte logiciel -- DevOps, AI Inference and Agentic
+**CN ID, Data Enablement** | Montréal, QC | Avril 2026 -- Aujourd'hui
+
+- Mettre en place de zéro la CI/CD GitHub Actions d'une plateforme d'ingestion de documents financiers sur Snowflake : 14 workflows, environnements DEV, PREVIEW et PROD, 100+ déploiements en 10 semaines
+- Déployer les services conteneurisés sur Snowpark Container Services : image unique par environnement, double approbation en production, tests de fumée post-déploiement
+- Consolider 11 workflows de déploiement en 4 en corrigeant 4 dérives entre environnements (dont une fuite de secret)
+- Livrer une application desktop Electron/TypeScript déployée via PDQ, avec mise à jour automatique sur 3 canaux
+- Bâtir une stratégie de 2 000+ tests automatisés (intégration, Snowflake, UI, end-to-end) et suspendre automatiquement les services inactifs
+- **IA et automatisation:** Système multi-agent de correction de bugs piloté par Claude Code (triage, implémentation, revue, vérification), encadré par des checks CI obligatoires et 330 tests, et revue de code IA exigée avant chaque fusion
 
 ### Auxiliaire d'enseignements
 **École de technologie supérieure (ÉTS)** | Montréal, QC | Juillet 2025 -- Décembre 2025
@@ -80,13 +90,13 @@ JavaScript (ES6+), TypeScript, PHP, Python, Java, C#, SQL, HTML5, CSS3
 React, Node.js, .NET, JUnit, Maven, Playwright, LangChain, LangGraph
 
 ### Outils DevOps et CI/CD
-GitHub Actions, GitLab CI/CD, Docker, Kubernetes, Grafana
+GitHub Actions, GitLab CI/CD, Docker, Kubernetes, Snowpark Container Services, Grafana
 
 ### Bases de données
-MongoDB, PostgreSQL, SQL Server, MySQL, phpMyAdmin
+Snowflake, MongoDB, PostgreSQL, SQL Server, MySQL, phpMyAdmin
 
 ### Cloud et infrastructure
-Cloudflare, OVH, Oracle Cloud, Linux, Windows, MacOS
+Proxmox VE, LXC, KVM, Tailscale, Cloudflare, OVH, Oracle Cloud, Linux, Windows, MacOS
 
 ### Méthodologies et pratiques
 Agile, Scrum, Kanban, TDD (Test-Driven Development), ETL, REST API, GraphQL, Git
@@ -138,12 +148,12 @@ WordPress, Prestashop, Elementor, Divi, WooCommerce
 
 ## Projets Personnels
 
-### Hébergement de services
-**Raspberry Pi & Cloudflare** | Février 2024 -- Aujourd'hui
-- Automatisation de workflow à travers n8n
-- Migration de données Cloud sur Nextcloud
+### Homelab -- Virtualisation et hébergement de services
+**Proxmox VE, Tailscale & Cloudflare** | Février 2024 -- Aujourd'hui
+- Exploitation de 2 serveurs Proxmox VE (LXC, VM KVM), après des débuts sur Raspberry Pi, avec sauvegardes nocturnes via Proxmox Backup Server
+- Accès privé via Tailscale, exposition via Cloudflare Tunnel, services Docker (Whisper, n8n, Nextcloud, Home Assistant)
+- Sandboxes LXC éphémères aux ressources plafonnées pour exécuter des agents IA de code isolés
 - Création de logiciels répondant à des problématiques avec des API de LLM (OpenAI, Gemini, etc)
-- Gestion de l'ensemble des projets à travers de la containerisation Docker
 
 ### Hackathon Mobile Challenge
 **ApplETS** | Janvier 2024 | Montréal, QC
